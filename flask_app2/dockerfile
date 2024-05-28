@@ -1,0 +1,27 @@
+# Use a base image that has both Python and OpenJDK installed
+FROM openjdk:11
+
+# Install Python, and other necessary tools
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+    curl \
+    vim
+
+# Set the working directory in the container
+WORKDIR /app/flask_app2
+
+# Copy only the requirements.txt initially to leverage Docker cache
+COPY ../requirements.txt /app/flask_app2
+
+# Install any needed packages specified in requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+# Now copy the rest of your application
+COPY . /app/flask_app2
+
+# Make port 5002 available to the world outside this container
+EXPOSE 5002
+
+# Command to run the app (this can be overridden by docker-compose)
+CMD ["python3", "tpm_adapter.py"]

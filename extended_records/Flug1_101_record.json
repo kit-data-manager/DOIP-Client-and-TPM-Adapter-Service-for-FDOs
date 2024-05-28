@@ -1,0 +1,145 @@
+{
+  "entries": {
+    "21.T11148/397d831aa3a9d18eb52c": [
+      {
+        "key": "21.T11148/397d831aa3a9d18eb52c",
+        "name": "dateModified",
+        "value": "2022-08-19T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/82e2503c49209e987740": [
+      {
+        "key": "21.T11148/82e2503c49209e987740",
+        "name": "checksum",
+        "value": "{ \"md5sum\": \"57219d1c2d8917a85c1ea32459f61a84\" }"
+      }
+    ],
+    "21.T11148/aafd5fb4c7222e2d950a": [
+      {
+        "key": "21.T11148/aafd5fb4c7222e2d950a",
+        "name": "dateCreated",
+        "value": "2022-05-30T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/c692273deb2772da307f": [
+      {
+        "key": "21.T11148/c692273deb2772da307f",
+        "name": "version",
+        "value": "1.0.0"
+      }
+    ],
+    "21.T11148/b8457812905b83046284": [
+      {
+        "key": "21.T11148/b8457812905b83046284",
+        "name": "digitalObjectLocation",
+        "value": "https://zenodo.org/record/7022736/files/Flug1_101.tar.zst?download=1"
+      }
+    ],
+    "21.T11148/98f42781824157d12cd7": [
+      {
+        "key": "21.T11148/98f42781824157d12cd7",
+        "name": "hasSoftware",
+        "value": "21.11152/4b4432a8-9380-4c7e-a20e-e1ccf02c1371"
+      }
+    ],
+    "21.T11148/7a320ca3fff18b3310df": [
+      {
+        "key": "21.T11148/7a320ca3fff18b3310df",
+        "name": "hasLiterature",
+        "value": "21.11152/ca70838a-9933-4247-8997-c56c260b9dee"
+      },
+      {
+        "key": "21.T11148/7a320ca3fff18b3310df",
+        "name": "hasLiterature",
+        "value": "21.11152/6e34fb91-7ca1-409a-9f75-1d321086458c"
+      }
+    ],
+    "21.T11148/1c699a5d1b4ad3ba4956": [
+      {
+        "key": "21.T11148/1c699a5d1b4ad3ba4956",
+        "name": "digitalObjectType",
+        "value": "21.11152/1faf85ec-c661-4c0d-a47c-8b07c9e3835c"
+      }
+    ],
+    "21.T11148/076759916209e5d62bd5": [
+      {
+        "key": "21.T11148/076759916209e5d62bd5",
+        "name": "kernelInformationProfile",
+        "value": "21.T11148/0e76292794888d4f1fa7"
+      }
+    ],
+    "21.T11148/2314fb325b95a360a493": [
+      {
+        "key": "21.T11148/2314fb325b95a360a493",
+        "name": "hasAnnotation",
+        "value": "21.11152/6ea60288-d895-414e-80c0-26c9fdd662b2"
+      }
+    ],
+    "21.T11148/d0773859091aeb451528": [
+      {
+        "key": "21.T11148/d0773859091aeb451528",
+        "name": "hasMetadata",
+        "value": "21.11152/24a55398-b96b-43dd-b0fb-cd8ce302c7ce"
+      },
+      {
+        "key": "21.T11148/d0773859091aeb451528",
+        "name": "hasMetadata",
+        "value": "21.11152/7b58b3b5-75eb-4417-ac4d-abe025e159f6"
+      }
+    ],
+    "21.T11148/df4aab1aaf6c1cd41a70": [
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-9082-9095"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-8517-2359"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-9822-244X"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-2233-1041"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0001-9930-5354"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-8059-4149"
+      }
+    ],
+    "21.T11148/2f314c8fe5fb6a0063a8": [
+      {
+        "key": "21.T11148/2f314c8fe5fb6a0063a8",
+        "name": "licenseURL",
+        "value": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "21.T11148/b415e16fbe4ca40f2270": [
+      {
+        "key": "21.T11148/b415e16fbe4ca40f2270",
+        "name": "topic",
+        "value": "http://vocabularies.unesco.org/thesaurus/concept1557"
+      }
+    ],
+    "21.T11148/007fb75612859ed30aa0": [
+      {
+        "key": "21.T11148/007fb75612859ed30aa0",
+        "name": "containerMIMEType",
+        "value": "application/zstd"
+      }
+    ]
+  },
+  "pid": "sandboxed/7285a100-1807-4c0d-9a85-b4879b168eaf"
+}

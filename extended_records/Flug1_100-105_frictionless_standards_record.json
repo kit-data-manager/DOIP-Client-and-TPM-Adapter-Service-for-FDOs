@@ -1,0 +1,158 @@
+{
+  "entries": {
+    "21.T11148/397d831aa3a9d18eb52c": [
+      {
+        "key": "21.T11148/397d831aa3a9d18eb52c",
+        "name": "dateModified",
+        "value": "2022-08-26T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/82e2503c49209e987740": [
+      {
+        "key": "21.T11148/82e2503c49209e987740",
+        "name": "checksum",
+        "value": "{ \"sha512sum\": \"dbd1df2621e136f1daadac3ee3d76d3eaf581e5dc1ca8a04464e9b869f6fdb075b24794f0154b3ad7d7f5cac759748596937a9cfd0548e8dcf01e6b002a497ac\" }"
+      }
+    ],
+    "21.T11148/aafd5fb4c7222e2d950a": [
+      {
+        "key": "21.T11148/aafd5fb4c7222e2d950a",
+        "name": "dateCreated",
+        "value": "2022-05-30T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/c692273deb2772da307f": [
+      {
+        "key": "21.T11148/c692273deb2772da307f",
+        "name": "version",
+        "value": "1.0.0"
+      }
+    ],
+    "21.T11148/b8457812905b83046284": [
+      {
+        "key": "21.T11148/b8457812905b83046284",
+        "name": "digitalObjectLocation",
+        "value": "https://zenodo.org/record/7022736/files/Flug1_100-105_frictionless_standards.json?download=1"
+      }
+    ],
+    "21.T11148/4fe7cde52629b61e3b82": [
+      {
+        "key": "21.T11148/4fe7cde52629b61e3b82",
+        "name": "isMetadataFor",
+        "value": "21.11152/6858a0b5-cc60-40e9-afef-8c2dd8b35e8e"
+      },
+      {
+        "key": "21.T11148/4fe7cde52629b61e3b82",
+        "name": "isMetadataFor",
+        "value": "21.11152/e670f510-7e00-4d3a-9b90-3bac7a7c069e"
+      },
+      {
+        "key": "21.T11148/4fe7cde52629b61e3b82",
+        "name": "isMetadataFor",
+        "value": "21.11152/3ab9f444-05f6-445e-a691-62fae4021bea"
+      },
+      {
+        "key": "21.T11148/4fe7cde52629b61e3b82",
+        "name": "isMetadataFor",
+        "value": "21.11152/365fd8cf-8e86-41b8-9d0e-b816fdd01d29"
+      },
+      {
+        "key": "21.T11148/4fe7cde52629b61e3b82",
+        "name": "isMetadataFor",
+        "value": "21.11152/041a6111-644a-4617-afb3-3c421a88e8e3"
+      },
+      {
+        "key": "21.T11148/4fe7cde52629b61e3b82",
+        "name": "isMetadataFor",
+        "value": "21.11152/f48bf4e7-3879-4216-8f64-45a060b8f658"
+      }
+    ],
+    "21.T11148/7a320ca3fff18b3310df": [
+      {
+        "key": "21.T11148/7a320ca3fff18b3310df",
+        "name": "hasLiterature",
+        "value": "21.11152/6e34fb91-7ca1-409a-9f75-1d321086458c"
+      }
+    ],
+    "21.T11148/1c699a5d1b4ad3ba4956": [
+      {
+        "key": "21.T11148/1c699a5d1b4ad3ba4956",
+        "name": "digitalObjectType",
+        "value": "21.11152/dee4ece2-7eda-433d-9523-798dab80d58f"
+      }
+    ],
+    "21.T11148/076759916209e5d62bd5": [
+      {
+        "key": "21.T11148/076759916209e5d62bd5",
+        "name": "kernelInformationProfile",
+        "value": "21.T11148/2c3cafa4db3f3e1e51b3"
+      }
+    ],
+    "21.T11148/df4aab1aaf6c1cd41a70": [
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-9082-9095"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-8517-2359"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-9822-244X"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-2233-1041"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0001-9930-5354"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-8059-4149"
+      }
+    ],
+    "21.T11148/2f314c8fe5fb6a0063a8": [
+      {
+        "key": "21.T11148/2f314c8fe5fb6a0063a8",
+        "name": "licenseURL",
+        "value": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "21.T11148/b415e16fbe4ca40f2270": [
+      {
+        "key": "21.T11148/b415e16fbe4ca40f2270",
+        "name": "topic",
+        "value": "http://vocabularies.unesco.org/thesaurus/concept1557"
+      },
+      {
+        "key": "21.T11148/b415e16fbe4ca40f2270",
+        "name": "topic",
+        "value": "http://vocabularies.unesco.org/thesaurus/concept3052"
+      }
+    ],
+    "21.T11148/77e7da3320d24e21008b": [
+      {
+        "key": "21.T11148/77e7da3320d24e21008b",
+        "name": "documentMIMEType",
+        "value": "application/json"
+      }
+    ],
+    "21.T11148/49330041ca5fddf9af92": [
+      {
+        "key": "21.T11148/49330041ca5fddf9af92",
+        "name": "schemaReference",
+        "value": "https://specs.frictionlessdata.io/schemas/data-package.json"
+      }
+    ]
+  },
+  "pid": "sandboxed/280265c9-e027-43ea-9963-3b6c1a2b07dd"
+}

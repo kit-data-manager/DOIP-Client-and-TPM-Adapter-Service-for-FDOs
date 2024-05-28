@@ -1,0 +1,28 @@
+# Use OpenJDK 11 with Python installed
+FROM openjdk:17-buster
+
+# Install Python, Git, and other necessary tools
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    unzip
+
+# Set work directory
+WORKDIR /app
+
+
+# Clone and prepare the TPM application
+WORKDIR /app
+ARG REPO_URL=https://github.com/kit-data-manager/pit-service.git
+RUN git clone $REPO_URL tpm-app
+WORKDIR /app/tpm-app
+
+# Use Gradlew to build the project
+#RUN chmod +x ./gradlew
+#RUN ./gradlew build
+
+# Expose the port the app runs on
+EXPOSE 8090
+
+# Start processes via Supervisord
+CMD ["./gradlew", "run", "--args=--spring.config.location=config/application.properties"]

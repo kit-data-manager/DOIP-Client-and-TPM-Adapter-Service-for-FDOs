@@ -1,0 +1,75 @@
+{
+  "entries": {
+    "21.T11148/aafd5fb4c7222e2d950a": [
+      {
+        "key": "21.T11148/aafd5fb4c7222e2d950a",
+        "name": "dateCreated",
+        "value": "2024-04-02T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/1c699a5d1b4ad3ba4956": [
+      {
+        "key": "21.T11148/1c699a5d1b4ad3ba4956",
+        "name": "digitalObjectType",
+        "value": "21.T11148/86c11d9215ebc2d2c8ff"
+      }
+    ],
+    "21.T11148/2f314c8fe5fb6a0063a8": [
+      {
+        "key": "21.T11148/2f314c8fe5fb6a0063a8",
+        "value": "https://opensource.org/license/mit"
+      }
+    ],
+    "21.T11148/076759916209e5d62bd5": [
+      {
+        "key": "21.T11148/076759916209e5d62bd5",
+        "name": "kernelInformationProfile",
+        "value": "21.T11148/ea4e93d06a10e15d9cdf"
+      }
+    ],
+    "21.T11148/90ee0a5e9d4f8a668868": [
+      {
+        "key": "21.T11148/90ee0a5e9d4f8a668868",
+        "name": "operationName",
+        "value": "GET_THUMBNAIL"
+      }
+    ],
+    "21.T11148/2694e4a7a5a00d44e62b": [
+      {
+        "key": "21.T11148/2694e4a7a5a00d44e62b",
+        "name": "requiredInputType",
+        "value": "{'21.T11148/a976172668c68034d96c': [{'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredInputKey', 'value': '21.T11148/007fb75612859ed30aa0'}], '21.T11148/dece113486d8c5ebcf8d': [{'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredInputValue', 'value': 'NoType'}]}"
+      },
+      {
+        "key": "21.T11148/2694e4a7a5a00d44e62b",
+        "name": "requiredInputType",
+        "value": "{'21.T11148/a976172668c68034d96c': [{'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredInputKey', 'value': '21.T11148/82e2503c49209e987740'}], '21.T11148/dece113486d8c5ebcf8d': [{'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredInputValue', 'value': 'NoType'}]}"
+      },
+      {
+        "key": "21.T11148/2694e4a7a5a00d44e62b",
+        "name": "requiredInputType",
+        "value": "{'21.T11148/a976172668c68034d96c': [{'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredInputKey', 'value': '21.T11148/b8457812905b83046284'}], '21.T11148/dece113486d8c5ebcf8d': [{'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredInputValue', 'value': 'NoType'}]}"
+      },
+      {
+        "key": "21.T11148/2694e4a7a5a00d44e62b",
+        "name": "requiredInputType",
+        "value": "{'21.T11148/a976172668c68034d96c': [{'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredInputKey', 'value': '21.T11148/076759916209e5d62bd5'}], '21.T11148/dece113486d8c5ebcf8d': [{'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredInputValue', 'value': '21.T11148/0e76292794888d4f1fa7'}]}"
+      }
+    ],
+    "21.T11148/f5c452794e258e83e4ad": [
+      {
+        "key": "21.T11148/f5c452794e258e83e4ad",
+        "name": "expectedOutputType",
+        "value": "21.T11148/34d71611dce9c30419b3"
+      }
+    ],
+    "21.T11148/a1fe3f60497302ae8b04": [
+      {
+        "key": "21.T11148/a1fe3f60497302ae8b04",
+        "name": "httpAccessProtocol",
+        "value": "{'21.T11148/cce55e4309a753985bdd': [{'key': '21.T11148/cce55e4309a753985bdd', 'name': 'order', 'value': '1'}], '21.T11148/791a2295375e3cd9dfee': [{'key': '21.T11148/791a2295375e3cd9dfee', 'name': 'httpMethod', 'value': 'POST'}], '21.T11148/66c4de21f77739edb009': [{'key': '21.T11148/66c4de21f77739edb009', 'name': 'httpContentType', 'value': 'application/json'}], '21.T11148/50b78494937d6085d763': [{'key': '21.T11148/50b78494937d6085d763', 'name': 'httpEndpointLocation', 'value': 'http://flaskapp1:5001/get_thumbnail'}], '21.T11148/811146089eebeac27d66': [{'key': '21.T11148/811146089eebeac27d66', 'name': 'httpResponse', 'value': '200 OK'}, {'key': '21.T11148/811146089eebeac27d66', 'name': 'httpResponse', 'value': '400: URL is required'}, {'key': '21.T11148/811146089eebeac27d66', 'name': 'httpResponse', 'value': '403: Domain not trusted'}], '21.T11148/0c055f37730ce8b376e5': [{'key': '21.T11148/0c055f37730ce8b376e5', 'name': 'httpBody', 'value': {'21.T11148/574c609fddc9a50c409f': [{'key': '21.T11148/574c609fddc9a50c409f', 'name': 'httpParameterKey', 'value': 'checksum'}], '21.T11148/d08567465008206eb123': [{'key': '21.T11148/d08567465008206eb123', 'name': 'httpParameterValue', 'value': '21.T11148/82e2503c49209e987740'}], '21.T11148/931e01f99fcb1a4f60e7': [{'key': '21.T11148/931e01f99fcb1a4f60e7', 'name': 'asArray', 'value': 'False'}]}}, {'key': '21.T11148/0c055f37730ce8b376e5', 'name': 'httpBody', 'value': {'21.T11148/574c609fddc9a50c409f': [{'key': '21.T11148/574c609fddc9a50c409f', 'name': 'httpParameterKey', 'value': 'url'}], '21.T11148/d08567465008206eb123': [{'key': '21.T11148/cb45527e820081cd39f2', 'name': 'httpParameterValue', 'value': '21.T11148/b8457812905b83046284'}], '21.T11148/931e01f99fcb1a4f60e7': [{'key': '21.T11148/931e01f99fcb1a4f60e7', 'name': 'asArray', 'value': 'False'}]}}]}"
+      }
+    ]
+  },
+  "pid": "sandboxed/43c4f1a0-a45c-46d6-9f20-bce695c923f4"
+}

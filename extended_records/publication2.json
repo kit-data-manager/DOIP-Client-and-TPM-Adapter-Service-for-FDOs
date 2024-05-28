@@ -1,0 +1,206 @@
+{
+  "entries": {
+    "21.T11148/076759916209e5d62bd5": [
+      {
+        "key": "21.T11148/076759916209e5d62bd5",
+        "name": "kernelInformationProfile",
+        "value": "21.T11148/f17e27f97a710780997d"
+      }
+    ],
+    "21.T11148/82e2503c49209e987740": [
+      {
+        "key": "21.T11148/82e2503c49209e987740",
+        "name": "checksum",
+        "value": "{ \"sha512sum\": \"3fa711f667f36dfbb566c7cd2e473d17bad4f8fa76821647d3078d3d2a26a7da5ac7f2659537d923140428c61b4734b54fcc86e368691b0ba31a9b5be5a2f38e\" }"
+      }
+    ],
+    "21.T11148/aafd5fb4c7222e2d950a": [
+      {
+        "key": "21.T11148/aafd5fb4c7222e2d950a",
+        "name": "dateCreated",
+        "value": "2023-05-10T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/01bdb13fcd6d26156cf2": [
+      {
+        "key": "21.T11148/01bdb13fcd6d26156cf2",
+        "name": "semanticScholarID",
+        "value": "936fd3e66faf3e1284b890700d588776d0ed3a0e"
+      }
+    ],
+    "21.T11148/b497a0aad7d4c7179b4f": [
+      {
+        "key": "21.T11148/b497a0aad7d4c7179b4f",
+        "name": "publisher",
+        "value": "https://www.nature.com/"
+      }
+    ],
+    "21.T11148/b8457812905b83046284": [
+      {
+        "key": "21.T11148/b8457812905b83046284",
+        "name": "digitalObjectLocation",
+        "value": "https://www.nature.com/articles/s41597-023-02140-z#citeas"
+      }
+    ],
+    "21.T11148/2d4d83f729fc8c3483b5": [
+      {
+        "key": "21.T11148/2d4d83f729fc8c3483b5",
+        "name": "hasCitation",
+        "value": "https://citation-needed.springer.com/v2/references/10.1038/s41597-023-02140-z?format=refman&flavour=citation"
+      }
+    ],
+    "21.T11148/43fd02fd11bca92e7b37": [
+      {
+        "key": "21.T11148/43fd02fd11bca92e7b37",
+        "name": "language",
+        "value": "en"
+      }
+    ],
+    "21.T11148/ca2ebad82c2c5a100182": [
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/58d43ddc-5e29-4980-8675-ae579b50a1e2"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/6858a0b5-cc60-40e9-afef-8c2dd8b35e8e"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/09cb76fc-b8cb-4116-a22a-68c5bdfa77b0"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/6ea60288-d895-414e-80c0-26c9fdd662b2"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/7b58b3b5-75eb-4417-ac4d-abe025e159f6"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/e670f510-7e00-4d3a-9b90-3bac7a7c069e"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/24a55398-b96b-43dd-b0fb-cd8ce302c7ce"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/3ab9f444-05f6-445e-a691-62fae4021bea"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/721234ac-4b5a-4d02-9944-82a08ef2db35"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/365fd8cf-8e86-41b8-9d0e-b816fdd01d29"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/ebaeb5bc-0514-47c9-bcd2-98f0253843d8"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/041a6111-644a-4617-afb3-3c421a88e8e3"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/9854677c-77c5-4a0b-916b-57dd9ec20198"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/f48bf4e7-3879-4216-8f64-45a060b8f658"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/cfd0fc0e-f5ea-464e-a57f-28e882924860"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/976fcf28-f924-4a21-b53d-5d054ad8198d"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/37833c54-1d36-42e4-858d-831447122863"
+      },
+      {
+        "key": "21.T11148/ca2ebad82c2c5a100182",
+        "name": "isLiteratureFor",
+        "value": "21.11152/ba370aa3-6422-428c-9ff7-c2ef429df603"
+      }
+    ],
+    "21.T11148/1c699a5d1b4ad3ba4956": [
+      {
+        "key": "21.T11148/1c699a5d1b4ad3ba4956",
+        "name": "digitalObjectType",
+        "value": "21.T11148/647cd27b02762a811242"
+      }
+    ],
+    "21.T11148/df4aab1aaf6c1cd41a70": [
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-9082-9095"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-8517-2359"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-9822-244X"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-2233-1041"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0001-9930-5354"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-8059-4149"
+      }
+    ],
+    "21.T11148/2f314c8fe5fb6a0063a8": [
+      {
+        "key": "21.T11148/2f314c8fe5fb6a0063a8",
+        "name": "licenseURL",
+        "value": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "21.T11148/77e7da3320d24e21008b": [
+      {
+        "key": "21.T11148/77e7da3320d24e21008b",
+        "name": "softwareMIMEType",
+        "value": "pdf"
+      }
+    ]
+  },
+  "pid": "sandboxed/a2a10d85-1bde-43e7-a5b0-02b6e2b4599d"
+}

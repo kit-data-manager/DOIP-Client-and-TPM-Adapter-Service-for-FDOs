@@ -1,0 +1,196 @@
+{
+  "entries": {
+    "21.T11148/076759916209e5d62bd5": [
+      {
+        "key": "21.T11148/076759916209e5d62bd5",
+        "name": "kernelInformationProfile",
+        "value": "21.T11148/492b70a6e479de37eecb"
+      }
+    ],
+    "21.T11148/397d831aa3a9d18eb52c": [
+      {
+        "key": "21.T11148/397d831aa3a9d18eb52c",
+        "name": "dateModified",
+        "value": "2023-07-31T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/82e2503c49209e987740": [
+      {
+        "key": "21.T11148/82e2503c49209e987740",
+        "name": "checksum",
+        "value": "{ \"sha512sum\": \"b704a50dddaf79e3814aa50afc73799b19e83192addc98fd7dd71fead06f96c9678e0c58f6a486d9ba7a3b1c85483c09ffa330b7244e4379ff6ca020c3139152\" }"
+      }
+    ],
+    "21.T11148/aafd5fb4c7222e2d950a": [
+      {
+        "key": "21.T11148/aafd5fb4c7222e2d950a",
+        "name": "dateCreated",
+        "value": "2022-07-01T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/c692273deb2772da307f": [
+      {
+        "key": "21.T11148/c692273deb2772da307f",
+        "name": "version",
+        "value": "0.0.1"
+      }
+    ],
+    "21.T11148/fa7511b19d58efa10f2a": [
+      {
+        "key": "21.T11148/fa7511b19d58efa10f2a",
+        "name": "programmingLanguage",
+        "value": "Python"
+      },
+      {
+        "key": "21.T11148/fa7511b19d58efa10f2a",
+        "name": "programmingLanguage",
+        "value": "Shell"
+      }
+    ],
+    "21.T11148/b8457812905b83046284": [
+      {
+        "key": "21.T11148/b8457812905b83046284",
+        "name": "digitalObjectLocation",
+        "value": "https://github.com/Helmholtz-AI-Energy/TBBRDet/archive/refs/heads/main.zip"
+      }
+    ],
+    "21.T11148/495117c3604f83ec4b52": [
+      {
+        "key": "21.T11148/495117c3604f83ec4b52",
+        "name": "dependencies",
+        "value": "{'21.T11148/e0efc41346cda4ba84ca': [{'key': '21.T11148/e0efc41346cda4ba84ca', 'name': 'location', 'value': 'https://pypi.org/project/pip/'}], '21.T11148/3004633530ef934a182b': [{'key': '21.T11148/3004633530ef934a182b', 'name': 'installerTechnology', 'value': 'pip'}]}"
+      },
+      {
+        "key": "21.T11148/495117c3604f83ec4b52",
+        "name": "dependencies",
+        "value": "{'21.T11148/e0efc41346cda4ba84ca': [{'key': '21.T11148/e0efc41346cda4ba84ca', 'name': 'location', 'value': 'https://download.pytorch.org/whl/torch_stable.html'}], '21.T11148/3df63b7acb0522da685d': [{'key': '21.T11148/3df63b7acb0522da685d', 'name': 'parameters', 'value': 'torch==1.10.1+cu113'}, {'key': '21.T11148/3df63b7acb0522da685d', 'name': 'parameters', 'value': 'torchvision==0.11.2+cu113'}, {'key': '21.T11148/3df63b7acb0522da685d', 'name': 'parameters', 'value': 'torchaudio==0.10.1+cu113'}], '21.T11148/3004633530ef934a182b': [{'key': '21.T11148/3004633530ef934a182b', 'name': 'installerTechnology', 'value': 'pip'}]}"
+      },
+      {
+        "key": "21.T11148/495117c3604f83ec4b52",
+        "name": "dependencies",
+        "value": "{'21.T11148/e0efc41346cda4ba84ca': [{'key': '21.T11148/e0efc41346cda4ba84ca', 'name': 'location', 'value': 'https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html'}], '21.T11148/3df63b7acb0522da685d': [{'key': '21.T11148/3df63b7acb0522da685d', 'name': 'parameters', 'value': 'detectron2'}], '21.T11148/3004633530ef934a182b': [{'key': '21.T11148/3004633530ef934a182b', 'name': 'installerTechnology', 'value': 'pip'}]}"
+      }
+    ],
+    "21.T11148/b9665c62fe864b1a34e5": [
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/58d43ddc-5e29-4980-8675-ae579b50a1e2"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/6858a0b5-cc60-40e9-afef-8c2dd8b35e8e"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/09cb76fc-b8cb-4116-a22a-68c5bdfa77b0"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/6ea60288-d895-414e-80c0-26c9fdd662b2"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/7b58b3b5-75eb-4417-ac4d-abe025e159f6"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/e670f510-7e00-4d3a-9b90-3bac7a7c069e"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/24a55398-b96b-43dd-b0fb-cd8ce302c7ce"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/3ab9f444-05f6-445e-a691-62fae4021bea"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/721234ac-4b5a-4d02-9944-82a08ef2db35"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/365fd8cf-8e86-41b8-9d0e-b816fdd01d29"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/ebaeb5bc-0514-47c9-bcd2-98f0253843d8"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/041a6111-644a-4617-afb3-3c421a88e8e3"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/9854677c-77c5-4a0b-916b-57dd9ec20198"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/f48bf4e7-3879-4216-8f64-45a060b8f658"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/cfd0fc0e-f5ea-464e-a57f-28e882924860"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/976fcf28-f924-4a21-b53d-5d054ad8198d"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/37833c54-1d36-42e4-858d-831447122863"
+      },
+      {
+        "key": "21.T11148/b9665c62fe864b1a34e5",
+        "name": "isSoftwareFor",
+        "value": "21.11152/ba370aa3-6422-428c-9ff7-c2ef429df603"
+      }
+    ],
+    "21.T11148/1c699a5d1b4ad3ba4956": [
+      {
+        "key": "21.T11148/1c699a5d1b4ad3ba4956",
+        "name": "digitalObjectType",
+        "value": "21.T11148/647cd27b02762a811242"
+      }
+    ],
+    "21.T11148/df4aab1aaf6c1cd41a70": [
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-8517-2359"
+      }
+    ],
+    "21.T11148/2f314c8fe5fb6a0063a8": [
+      {
+        "key": "21.T11148/2f314c8fe5fb6a0063a8",
+        "name": "licenseURL",
+        "value": "https://opensource.org/license/bsd-3-clause"
+      }
+    ],
+    "21.T11148/03aa494d265c86505051": [
+      {
+        "key": "21.T11148/03aa494d265c86505051",
+        "name": "softwareMIMEType",
+        "value": "zip"
+      }
+    ]
+  },
+  "pid": "21.11152/4b4432a8-9380-4c7e-a20e-e1ccf02c1371"
+}

@@ -1,0 +1,130 @@
+{
+  "entries": {
+    "21.T11148/397d831aa3a9d18eb52c": [
+      {
+        "key": "21.T11148/397d831aa3a9d18eb52c",
+        "name": "dateModified",
+        "value": "2022-08-26T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/82e2503c49209e987740": [
+      {
+        "key": "21.T11148/82e2503c49209e987740",
+        "name": "checksum",
+        "value": "{ \"sha512sum\": \"2f788bf4d754c375f47b1ef26ada3e37b80a46e171fe161884aa10e9ade80e613fede3f21f85390bb7872b67f60fbb6f988378160c0e6e8038863e5b05b10750\" }"
+      }
+    ],
+    "21.T11148/aafd5fb4c7222e2d950a": [
+      {
+        "key": "21.T11148/aafd5fb4c7222e2d950a",
+        "name": "dateCreated",
+        "value": "2022-05-30T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/c692273deb2772da307f": [
+      {
+        "key": "21.T11148/c692273deb2772da307f",
+        "name": "version",
+        "value": "1.0.0"
+      }
+    ],
+    "21.T11148/b8457812905b83046284": [
+      {
+        "key": "21.T11148/b8457812905b83046284",
+        "name": "digitalObjectLocation",
+        "value": "https://zenodo.org/record/7022736/files/Flug1_101_stac_spec.json?download=1"
+      }
+    ],
+    "21.T11148/4fe7cde52629b61e3b82": [
+      {
+        "key": "21.T11148/4fe7cde52629b61e3b82",
+        "name": "isMetadataFor",
+        "value": "21.11152/e670f510-7e00-4d3a-9b90-3bac7a7c069e"
+      }
+    ],
+    "21.T11148/7a320ca3fff18b3310df": [
+      {
+        "key": "21.T11148/7a320ca3fff18b3310df",
+        "name": "hasLiterature",
+        "value": "21.11152/6e34fb91-7ca1-409a-9f75-1d321086458c"
+      }
+    ],
+    "21.T11148/1c699a5d1b4ad3ba4956": [
+      {
+        "key": "21.T11148/1c699a5d1b4ad3ba4956",
+        "name": "digitalObjectType",
+        "value": "21.11152/3052e4f1-4dd6-4c40-9a16-0a6b5f409e4a"
+      }
+    ],
+    "21.T11148/076759916209e5d62bd5": [
+      {
+        "key": "21.T11148/076759916209e5d62bd5",
+        "name": "kernelInformationProfile",
+        "value": "21.T11148/2c3cafa4db3f3e1e51b3"
+      }
+    ],
+    "21.T11148/d0773859091aeb451528": [
+      {
+        "key": "21.T11148/d0773859091aeb451528",
+        "name": "hasMetadata",
+        "value": "21.11152/ba370aa3-6422-428c-9ff7-c2ef429df603"
+      }
+    ],
+    "21.T11148/df4aab1aaf6c1cd41a70": [
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-9082-9095"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-8517-2359"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-9822-244X"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0002-2233-1041"
+      },
+      {
+        "key": "21.T11148/df4aab1aaf6c1cd41a70",
+        "name": "orcidContact",
+        "value": "https://orcid.org/0000-0001-9930-5354"
+      }
+    ],
+    "21.T11148/2f314c8fe5fb6a0063a8": [
+      {
+        "key": "21.T11148/2f314c8fe5fb6a0063a8",
+        "name": "licenseURL",
+        "value": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "21.T11148/b415e16fbe4ca40f2270": [
+      {
+        "key": "21.T11148/b415e16fbe4ca40f2270",
+        "name": "topic",
+        "value": "http://vocabularies.unesco.org/thesaurus/concept1557"
+      }
+    ],
+    "21.T11148/77e7da3320d24e21008b": [
+      {
+        "key": "21.T11148/77e7da3320d24e21008b",
+        "name": "documentMIMEType",
+        "value": "application/json"
+      }
+    ],
+    "21.T11148/49330041ca5fddf9af92": [
+      {
+        "key": "21.T11148/49330041ca5fddf9af92",
+        "name": "schemaReference",
+        "value": "https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json#"
+      }
+    ]
+  },
+  "pid": "sandboxed/1c2cba93-3f64-4035-960c-fd4367b61f09"
+}

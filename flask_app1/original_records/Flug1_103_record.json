@@ -1,0 +1,117 @@
+{
+  "pid": "21.11152/365fd8cf-8e86-41b8-9d0e-b816fdd01d29",
+  "entries": {
+    "21.T11148/397d831aa3a9d18eb52c": [
+      {
+        "key": "21.T11148/397d831aa3a9d18eb52c",
+        "name": "dateModified",
+        "value": "2022-08-19T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/82e2503c49209e987740": [
+      {
+        "key": "21.T11148/82e2503c49209e987740",
+        "name": "checksum",
+        "value": "{ \"md5sum\": \"8aca44b36e15e61478debffdb9edda18\" }"
+      }
+    ],
+    "21.T11148/aafd5fb4c7222e2d950a": [
+      {
+        "key": "21.T11148/aafd5fb4c7222e2d950a",
+        "name": "dateCreated",
+        "value": "2022-05-30T00:00:00+00:00"
+      }
+    ],
+    "21.T11148/c692273deb2772da307f": [
+      {
+        "key": "21.T11148/c692273deb2772da307f",
+        "name": "version",
+        "value": "1.0.0"
+      }
+    ],
+    "21.T11148/b8457812905b83046284": [
+      {
+        "key": "21.T11148/b8457812905b83046284",
+        "name": "digitalObjectLocation",
+        "value": "https://zenodo.org/record/7022736/files/Flug1_103.tar.zst?download=1"
+      }
+    ],
+    "21.T11148/1c699a5d1b4ad3ba4956": [
+      {
+        "key": "21.T11148/1c699a5d1b4ad3ba4956",
+        "name": "digitalObjectType",
+        "value": "21.11152/1faf85ec-c661-4c0d-a47c-8b07c9e3835c"
+      }
+    ],
+    "21.T11148/076759916209e5d62bd5": [
+      {
+        "key": "21.T11148/076759916209e5d62bd5",
+        "name": "kernelInformationProfile",
+        "value": "21.T11148/b9b76f887845e32d29f7"
+      }
+    ],
+    "21.T11148/d0773859091aeb451528": [
+     {
+        "key": "21.T11148/d0773859091aeb451528",
+        "name": "hasMetadata",
+        "value": "21.11152/6ea60288-d895-414e-80c0-26c9fdd662b2"
+      },
+     {
+        "key": "21.T11148/d0773859091aeb451528",
+        "name": "hasMetadata",
+        "value": "21.11152/ebaeb5bc-0514-47c9-bcd2-98f0253843d8"
+      },
+     {
+        "key": "21.T11148/d0773859091aeb451528",
+        "name": "hasMetadata",
+        "value": "21.11152/7b58b3b5-75eb-4417-ac4d-abe025e159f6"
+      }
+    ],
+    "21.T11148/1a73af9e7ae00182733b": [
+      {
+        "key": "21.T11148/1a73af9e7ae00182733b",
+        "name": "contact",
+        "value": "https://orcid.org/0000-0002-9082-9095"
+      },
+      {
+        "key": "21.T11148/1a73af9e7ae00182733b",
+        "name": "contact",
+        "value": "https://orcid.org/0000-0002-8517-2359"
+      },
+      {
+        "key": "21.T11148/1a73af9e7ae00182733b",
+        "name": "contact",
+        "value": "https://orcid.org/0000-0002-9822-244X"
+      },
+      {
+        "key": "21.T11148/1a73af9e7ae00182733b",
+        "name": "contact",
+        "value": "https://orcid.org/0000-0002-2233-1041"
+      },
+      {
+        "key": "21.T11148/1a73af9e7ae00182733b",
+        "name": "contact",
+        "value": "https://orcid.org/0000-0001-9930-5354"
+      },
+      {
+        "key": "21.T11148/1a73af9e7ae00182733b",
+        "name": "contact",
+        "value": "https://orcid.org/0000-0002-8059-4149"
+      }
+    ],
+    "21.T11148/2f314c8fe5fb6a0063a8": [
+      {
+        "key": "21.T11148/2f314c8fe5fb6a0063a8",
+        "name": "licenseURL",
+        "value": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "21.T11148/b415e16fbe4ca40f2270": [
+      {
+        "key": "21.T11148/b415e16fbe4ca40f2270",
+        "name": "topic",
+        "value": "http://vocabularies.unesco.org/thesaurus/concept1557"
+      }
+    ]
+  }
+}

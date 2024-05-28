@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  flaskapp1:
+    build:
+      context: ./flask_app1
+      dockerfile: dockerfile
+    ports:
+      - "5001:5001"
+
+  flaskapp2:
+    build:
+      context: ./flask_app2
+      dockerfile: dockerfile
+    ports:
+      - "5002:5002"
+
+  tpmapp:
+    build: 
+      context: ./tpm_app
+      dockerfile: dockerfile
+    ports:
+      - "8090:8090"

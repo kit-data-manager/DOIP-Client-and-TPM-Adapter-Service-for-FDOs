@@ -1,0 +1,7 @@
+numpy
+Pillow
+opencv-python
+requests
+Flask
+jsonschema
+zstandard
