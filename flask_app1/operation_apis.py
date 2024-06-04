@@ -101,10 +101,13 @@ def validate_orcid(orcid):
     else:
         return "400"
 
-@app.route('/get_orcid', methods=['POST'])
+@app.route('/get_orcid', methods=['GET'])
 def get_orcid():
     # Extract the ORCID ID from the request body
-    orcid_input = request.json.get('orcid')
+    try:
+        orcid_input = request.args.getlist('orcid')
+    except Exception:
+        orcid_input = request.args.get('orcid')
     headers = {
         'Accept': 'application/json',
     }
@@ -171,10 +174,9 @@ def fetch_records(pids):
                     records.append(record)
     return records
 
-@app.route('/find_metadata', methods=['POST'])
+@app.route('/find_metadata', methods=['GET'])
 def find_metadata():
-    data = request.json
-    pids = data.get('pids')
+    pids = request.args.get('pids')
     
     if not pids:
         return jsonify({"error": "No PIDs provided"}), 400
@@ -182,41 +184,37 @@ def find_metadata():
     records = fetch_records(pids)
     return jsonify(records)
 
-@app.route('/find_annotation', methods=['POST'])
+@app.route('/find_annotation', methods=['GET'])
 def find_annotation():
-    data = request.json
-    pids = data.get('pids')
+    pids = request.args.get('pids')
     if not pids:
         return jsonify({"error": "No PIDs provided"}), 400
 
     records = fetch_records(pids)
     return jsonify(records)
 
-@app.route('/find_software', methods=['POST'])
+@app.route('/find_software', methods=['GET'])
 def find_software():
-    data = request.json
-    pids = data.get('pids')
+    pids = request.args.get('pids')
     if not pids:
         return jsonify({"error": "No PIDs provided"}), 400
 
     records = fetch_records(pids)
     return jsonify(records)
 
-@app.route('/find_literature', methods=['POST'])
+@app.route('/find_literature', methods=['GET'])
 def find_literature():
-    data = request.json
-    pids = data.get('pids')
+    pids = request.args.get('pids')
     if not pids:
         return jsonify({"error": "No PIDs provided"}), 400
 
     records = fetch_records(pids)
     return jsonify(records)
 
-@app.route('/validate_schema', methods=['POST'])
+@app.route('/validate_schema', methods=['GET'])
 def validate_schema():
-    data = request.json
-    metadata_url = data.get('metadata')
-    schema_url = data.get('schema')
+    metadata_url = request.args.get('metadata')
+    schema_url = request.args.get('schema')
     
     if not metadata_url or not schema_url:
         return jsonify({"error": "Both metadataUrl and schemaUrl are required"}), 400
@@ -240,12 +238,11 @@ def validate_schema():
     except ValidationError as e:
         return jsonify({"isValid": False, "message": str(e)}), 400
 
-@app.route('/get_thumbnail', methods=['POST'])
+@app.route('/get_thumbnail', methods=['GET'])
 def get_thumbnail():
     # Extract the URL from the request data
-    data = request.json
-    url = data.get('url')
-    checksum = data.get('checksum')
+    url = request.args.get('url')
+    checksum = request.args.get('checksum')
     supported_domains = ["zenodo.org"]
     # internal database. Would be typically a relational database, specific to a repository like Zenodo. Here, it uses the checksums of files to identify their corresponding image finger print.
     internal_database = {"716acce83a51ad2fc958ab3ce0026f71": "716acce83a51ad2fc958ab3ce0026f71.png",

@@ -133,11 +133,12 @@ def handle_doip():
     operation_id = request.args.get('operationId') if request.method == 'GET' else request.json.get('operationId')
     target_id = request.args.get('targetId') if request.method == 'GET' else request.json.get('targetId')
 
-    data = request.get_json()  # Parse JSON data
-
-    # Check if the key exists in JSON, otherwise it's optional
-    attributes = data.get('attributes')  # This returns None if 'optional_param' does not exist
-
+    if request.method == 'POST':
+        data = request.get_json()  # Parse JSON data
+        # Check if the key exists in JSON, otherwise it's optional
+        attributes = data.get('attributes')  # This returns None if 'attributes' does not exist
+    else:
+        attributes=None
     
     # Mandatory parameter check
     if not operation_id or not target_id:
