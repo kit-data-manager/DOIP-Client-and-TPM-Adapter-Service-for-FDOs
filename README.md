@@ -168,7 +168,7 @@ In the following, example HTTP/DOIP requests and responses are provided for each
     Content-Length: ...
     
     {
-      "available FDOps": [
+      "available FDO Operations": [
         {
           "name": "EVALUATE_LICENSE",
           "pid": "sandboxed/49d302da-b977-42eb-8643-e4d3a391bab3"
