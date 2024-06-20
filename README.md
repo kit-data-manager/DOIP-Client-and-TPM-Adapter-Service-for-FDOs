@@ -3,7 +3,6 @@
 - KIP: Kernel Information Profile
 - TPM: Typed PID Maker
 - PID: Persistent Identifier
-- FDOps: FAIR Digital Operations
 - FDO: FAIR Digital Object
 - DOIP: Digital Object Interface Protocol
 - DTR: Data Type Registry
@@ -15,7 +14,7 @@
 - when the containers are running and the spring build is finished, register the extended FDO records using the shell script with (assuming mac): ```chmod +x ./ingest_fdos.sh``` and then ```./ingest_fdos.sh --post --dir extended_records```
 - run the test_tpm.ipynb cells to sequentially print out the results (further described in the following)
 ## FDO records
-We duplicated and extended the FDO records of the PIDs available at https://zenodo.org/records/7022736. The original records are stored under original_records. The extended records are available at extended_records and were only registered locally using  sandbox PIDs, not at Handle as the original ones which can be resolved at https://hdl.handle.net/ using the PIDs in the referenced JSON files. The extended records were created using additional Kernel Information Profiles (KIPs) and Attribute Types that are registered at the ePIC testing DTR (https://dtr-test.pidconsortium.net/), namely:
+We duplicated and extended the FDO records of the PIDs available at https://zenodo.org/records/7022736. The original records are stored under [original_records](flask_app1/original_records). The extended records are available at [extended_records](extended_records) and were only registered locally using  sandbox PIDs, not at Handle as the original ones which can be resolved at https://hdl.handle.net/ using the PIDs in the referenced JSON files. The extended records were created using additional Kernel Information Profiles (KIPs) and Attribute Types that are registered at the ePIC testing DTR (https://dtr-test.pidconsortium.net/), namely:
 - KIPs: 
     - Web API Operation KIP: https://dtr-test.pidconsortium.net/#objects/21.T11148/ea4e93d06a10e15d9cdf
     - Raster Graphic Image KIP: https://dtr-test.pidconsortium.net/#objects/21.T11148/0e76292794888d4f1fa7
@@ -51,15 +50,14 @@ Implements service specific operations for FDOs, namely:
     - LIST_OPS(): lists all operations that are implemented by the service
     - LIST_FDOS(): lists all FDOs using the TPM interface
     - GET_FDO(): retrieves the information record associated with the Persistent Identifier of a FDO using the TPM interface
-    - LIST_FDOPS(): lists all FAIR Digital Operations using the TPM interface
-    - *FDO_Operation(): performs the operation described by a FDOps for an associated FDO using the Mapping_service and Executor
-- Mapping_Service(): recieves the access protocol of a FDOps record (currently only HTTP supported) and the targeted FDO record. Transfers the parameters in the access protocol into (HTTP) requests and adds them to the workflow map. Values for parameter keys are either provided in the FDOps record directly (for standard values), are
- referenced via an attribute key in the target record from where they are mapped, or are passed by the client using the PID of the parameter key and are then directly inserted. In case multiple values per attribute key are present in the target FDO record and the asArray statement for the parameter states False,
+    - LIST_OPS(): lists all FAIR Digital Operations using the TPM interface
+    - *FDO_Operation(): performs the operation described by a FDO Operation for an associated FDO using the Mapping_service and Executor
+- Mapping_Service(): recieves the access protocol of a FDO Operation record (currently only HTTP supported) and the targeted FDO record. Transfers the parameters in the access protocol into (HTTP) requests and adds them to the workflow map. Values for parameter keys are either provided in the FDO Operation record directly (for standard values), are referenced via an attribute key in the target record from where they are mapped, or are passed by the client using the PID of the parameter key and are then directly inserted. In case multiple values per attribute key are present in the target FDO record and the *asArray* statement for the parameter states False,
  a separate request per value is added to the map. Otherwise, the values are mapped as one list. The module also considers recursive patterns when sub-operations are described and finally sorts the workflow map according to the record description which is theb returned.
 - Executor(): Recieves the workflow map containing the requests to execute the described operation(s) (currently only HTTP requests for Web APIs supported). Returns the resuls to the TPM_Adapter which sends it to the client.
 
 ## DOIP request examples for service and FDOs
-In the following, example HTTP/DOIP requests and responses are provided for each FDOps (including service and external operations) with an example target. All requests follow a unifrom structure where the operationId query argument specifies the identifier of the FAIR Digital Operation and targetId the FAIR Digtial Object or serviceID this operation is applied to. These results can be reproduced for all reference FDO records following the instructions in the earlier section.
+In the following, example HTTP/DOIP requests and responses are provided for each FDO Operation (including service and external operations) with an example target. All requests follow a unifrom structure where the operationId query argument specifies the identifier of the FAIR Digital Operation and targetId the FAIR Digtial Object or serviceID this operation is applied to. These results can be reproduced for all reference FDO records following the instructions in the earlier section.
 
 - **LIST_OPS (for service ops)**: Lists all operations that are implemented by the service
     *Request*:
@@ -96,7 +94,7 @@ In the following, example HTTP/DOIP requests and responses are provided for each
         "0.DOIP/Op.LIST_Ops": {
             "arguments": "None",
             "operationID": "0.DOIP/Op.LIST_Ops",
-            "response type": "map of service operation specifications or map of supported FDOPs for the target object",
+            "response type": "map of service operation specifications or map of supported FDO Operations for the target object",
             "targetID": "Service or Object"
         }
     }
