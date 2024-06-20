@@ -50,14 +50,14 @@ Implements service specific operations for FDOs, namely:
     - LIST_OPS(): lists all operations that are implemented by the service
     - LIST_FDOS(): lists all FDOs using the TPM interface
     - GET_FDO(): retrieves the information record associated with the Persistent Identifier of a FDO using the TPM interface
-    - LIST_OPS(): lists all FAIR Digital Operations using the TPM interface
+    - LIST_OPS(): lists all FAIR Digital Object Operations using the TPM interface
     - *FDO_Operation(): performs the operation described by a FDO Operation for an associated FDO using the Mapping_service and Executor
 - Mapping_Service(): recieves the access protocol of a FDO Operation record (currently only HTTP supported) and the targeted FDO record. Transfers the parameters in the access protocol into (HTTP) requests and adds them to the workflow map. Values for parameter keys are either provided in the FDO Operation record directly (for standard values), are referenced via an attribute key in the target record from where they are mapped, or are passed by the client using the PID of the parameter key and are then directly inserted. In case multiple values per attribute key are present in the target FDO record and the *asArray* statement for the parameter states False,
  a separate request per value is added to the map. Otherwise, the values are mapped as one list. The module also considers recursive patterns when sub-operations are described and finally sorts the workflow map according to the record description which is theb returned.
 - Executor(): Recieves the workflow map containing the requests to execute the described operation(s) (currently only HTTP requests for Web APIs supported). Returns the resuls to the TPM_Adapter which sends it to the client.
 
 ## DOIP request examples for service and FDOs
-In the following, example HTTP/DOIP requests and responses are provided for each FDO Operation (including service and external operations) with an example target. All requests follow a unifrom structure where the operationId query argument specifies the identifier of the FAIR Digital Operation and targetId the FAIR Digtial Object or serviceID this operation is applied to. These results can be reproduced for all reference FDO records following the instructions in the earlier section.
+In the following, example HTTP/DOIP requests and responses are provided for each FDO Operation (including service and external operations) with an example target. All requests follow a unifrom structure where the operationId query argument specifies the identifier of the FAIR Digital Object Operation and targetId the FAIR Digtial Object or serviceID this operation is applied to. By default, a request is made using the GET method, and if additional attributes are passed in the request body, the POST method is used. These results can be reproduced for all reference FDO records following the instructions in the earlier section.
 
 - **LIST_OPS (for service ops)**: Lists all operations that are implemented by the service
     *Request*:
@@ -155,7 +155,7 @@ In the following, example HTTP/DOIP requests and responses are provided for each
       }
     }
     ```
-- **LIST_OPS (for a FDO)**: lists all FAIR Digital Operations associated with a FDO and registered at the TPM instance
+- **LIST_OPS (for a FDO)**: lists all FAIR Digital Object Operations associated with a FDO and registered at the TPM instance
     *Request*:
     ```
     GET .../doip?operationId=0.DOIP/Op.LIST_Ops&targetId=sandboxed/PID1
