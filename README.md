@@ -42,7 +42,9 @@ We duplicated and extended the FDO records of the PIDs available at https://zeno
     - software MIME Type: https://dtr-test.pidconsortium.net/#objects/21.T11148/03aa494d265c86505051
     - hasLiterature (inherits from hasMetadata): https://dtr-test.pidconsortium.net/#objects/21.T11148/7a320ca3fff18b3310df
 
-These attributes are present on the first level of the information record and some have sub-types introduced by inheritance and compoistion as specified in the DTR. Lower-level attribute structures are represented as string values (expected by the TPM validator) but reflect a JSON structure that is reconstructed in the TPM_Adapter module. The new types can be validated by the TPM instance, configured with the ePIC DTR by default.
+These attributes are present on the first level of the information record and some have sub-types introduced by inheritance and compoistion as specified in the DTR. Lower-level attribute structures are represented as string values (expected by the TPM validator) but reflect a JSON structure that is reconstructed in the TPM_Adapter module. The new types can be validated by the TPM instance, configured with the ePIC DTR by default. The following image shows the modelling diagram for the KIPs and Attribute Types:
+
+<img src="FDO_KIPs_and_attributes_modelling.png" alt="KIPs and Attribute Types" width="600"/>
 
 ## The software package comprises three main modules:
 - [TPM_Adapter()](flask_app2/tpm_adapter.py): provides a client interface by exposing an endpoint .../doip that implements the Digital Object Interface Protocol for HTTP clients. Typically uses the interface of the Typed PID Maker (TPM) Service avialable at https://github.com/kit-data-manager/pit-service.
