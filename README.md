@@ -57,7 +57,7 @@ Implements service specific operations for FDOs, namely:
  a separate request per value is added to the map. Otherwise, the values are mapped as one list. The module also considers recursive patterns when sub-operations are described and finally sorts the workflow map according to the record description which is theb returned.
 - [Executor()](flask_app2/execute_request.py): Recieves the workflow map containing the requests to execute the described operation(s) (currently only HTTP requests for Web APIs supported). Returns the resuls to the TPM_Adapter which sends it to the client.
 ## DOIP request examples for service and FDOs
-In the following, example HTTP/DOIP requests and responses are provided for each FDO Operation (including service and external operations) with an example target. All requests follow a unifrom structure where the operationId query argument specifies the identifier of the FAIR Digital Object Operation and targetId the FAIR Digtial Object or serviceID this operation is applied to. By default, a request is made using the GET method, and if additional attributes are passed in the request body, the POST method is used. These results can be reproduced for all reference FDO records following the instructions in the earlier section.
+In the following, example HTTP/DOIP requests and responses are provided for each FDO Operation (including service and external operations) with an example target. All requests follow a unifrom structure where the operationId query argument specifies the identifier of the FAIR Digital Object Operation and targetId the FAIR Digtial Object or serviceID this operation is applied to. By default, a request is made using the GET method, and if additional attributes are passed in the request body, the POST method is used. In case additional attributes are passed, they must refer to one of the HTTP parameter elements, specified in the FDO record of the applied operation and must therefore be passed using the PID of the respective Attribute Type (example EVALUATE_LICENSE that takes the PID of the *httpQuery* attribute). This is typically the case when information needs to be passed by the client and is not available in the record of a targeted FDO. These results can be reproduced for all reference FDO records following the instructions in the earlier section.
 
 - **LIST_OPS (for service ops)**: Lists all operations that are implemented by the service
     *Request*:
@@ -357,7 +357,7 @@ In the following, example HTTP/DOIP requests and responses are provided for each
 - **VALIDATE_SCHEMA**: Recieves a JSON metadata document and corresponding JSON schema reference to validate the compliance between document and schema.
     *Request*:
     ```
-    POST .../doip?operationId=sandboxed/PID1&targetId=sandboxed/PID2
+    GET .../doip?operationId=sandboxed/PID1&targetId=sandboxed/PID2
     Content-Type: appliaction/json;charset=utf-8
     ```
     *Response*:
