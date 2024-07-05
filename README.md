@@ -34,13 +34,13 @@ We duplicated and extended the FDO records of the PIDs available at https://zeno
     - Language: https://dtr-test.pidconsortium.net/#objects/21.T11148/43fd02fd11bca92e7b37
     - Semantic scholar Id: https://dtr-test.pidconsortium.net/#objects/21.T11148/01bdb13fcd6d26156cf2
     - Publisher: https://dtr-test.pidconsortium.net/#objects/21.T11148/b497a0aad7d4c7179b4f
-    - Is Publication For (inherits from Is Metadata For): https://dtr-test.pidconsortium.net/#objects/21.T11148/ca2ebad82c2c5a100182
-    - Has Citation (inherits from Has Metadata): https://dtr-test.pidconsortium.net/#objects/21.T11148/2d4d83f729fc8c3483b5
+    - Is Publication For: https://dtr-test.pidconsortium.net/#objects/21.T11148/ca2ebad82c2c5a100182
+    - Has Citation: https://dtr-test.pidconsortium.net/#objects/21.T11148/2d4d83f729fc8c3483b5
     - Programming Language: https://dtr-test.pidconsortium.net/#objects/21.T11148/fa7511b19d58efa10f2a
     - Dependencies: https://dtr-test.pidconsortium.net/#objects/21.T11148/495117c3604f83ec4b52
     - Is Software For: https://dtr-test.pidconsortium.net/#objects/21.T11148/b9665c62fe864b1a34e5
     - Software MIME Type: https://dtr-test.pidconsortium.net/#objects/21.T11148/03aa494d265c86505051
-    - Has Literature (inherits from hasMetadata): https://dtr-test.pidconsortium.net/#objects/21.T11148/7a320ca3fff18b3310df
+    - Has Literature: https://dtr-test.pidconsortium.net/#objects/21.T11148/7a320ca3fff18b3310df
     - Metadata Type: https://dtr-test.pidconsortium.net/#objects/21.T11148/ab70492fe8b6b8bf8a6b
 
 These attributes are present on the first level of the information record and some have sub-types introduced by inheritance and compoistion as specified in the DTR. Lower-level attribute structures are represented as string values (expected by the TPM validator) but reflect a JSON structure that is reconstructed in the TPM_Adapter module. The new types can be validated by the TPM instance, configured with the ePIC DTR by default. The following image shows the modelling diagram in UML style for the KIPs and Attribute Types:
