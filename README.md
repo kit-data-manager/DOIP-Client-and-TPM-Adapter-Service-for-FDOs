@@ -16,26 +16,26 @@
 ## FDO records
 We duplicated and extended the FDO records of the PIDs available at https://zenodo.org/records/7022736. The original records are stored under [original_records](flask_app1/original_records). The extended records are available at [extended_records](extended_records) and were only registered locally using  sandbox PIDs, not at Handle as the original ones which can be resolved at https://hdl.handle.net/ using the PIDs in the referenced JSON files. The extended records were created using additional Kernel Information Profiles (KIPs) and Attribute Types that are registered at the ePIC testing DTR (https://dtr-test.pidconsortium.net/), namely:
 - KIPs: 
-    - Web API Operation KIP: https://dtr-test.pidconsortium.net/#objects/21.T11148/ea4e93d06a10e15d9cdf
-    - Raster Graphic Image KIP: https://dtr-test.pidconsortium.net/#objects/21.T11148/0e76292794888d4f1fa7
-    - Schema-based Metadata Profile: https://dtr-test.pidconsortium.net/#objects/21.T11148/2c3cafa4db3f3e1e51b3
-    - Literature KIP: https://dtr-test.pidconsortium.net/#objects/21.T11148/f17e27f97a710780997d
-    - Software KIP: https://dtr-test.pidconsortium.net/#objects/21.T11148/492b70a6e479de37eecb
+    - Web API Operation KIP(inherits from RDA KIP): https://dtr-test.pidconsortium.net/#objects/21.T11148/ea4e93d06a10e15d9cdf
+    - Raster Graphic Image KIP(inherits from RDA KIP): https://dtr-test.pidconsortium.net/#objects/21.T11148/0e76292794888d4f1fa7
+    - Schema-based Metadata Profile(inherits from Metadata KIP that inherits from RDA KIP): https://dtr-test.pidconsortium.net/#objects/21.T11148/2c3cafa4db3f3e1e51b3
+    - Literature KIP(inherits from Metadata KIP that inherits from RDA KIP): https://dtr-test.pidconsortium.net/#objects/21.T11148/f17e27f97a710780997d
+    - Software KIP(inherits from RDA KIP): https://dtr-test.pidconsortium.net/#objects/21.T11148/492b70a6e479de37eecb
 - Attribute Types:
     - Operation Name: https://dtr-test.pidconsortium.net/#objects/21.T11148/90ee0a5e9d4f8a668868
     - Required Input Type: https://dtr-test.pidconsortium.net/#objects/21.T11148/2694e4a7a5a00d44e62b
     - Expected Output Type: https://dtr-test.pidconsortium.net/#objects/21.T11148/f5c452794e258e83e4ad
     - HTTP Access Protocol: https://dtr-test.pidconsortium.net/#objects/21.T11148/a1fe3f60497302ae8b04
-    - ORCiD Contact (inherits from contact): https://dtr-test.pidconsortium.net/#objects/21.T11148/df4aab1aaf6c1cd41a70
-    - Has Annotation (inherits from hasMetadata): https://dtr-test.pidconsortium.net/#objects/21.T11148/210acdb71caa2e4c55cc
+    - ORCiD Contact (inherits from Contact): https://dtr-test.pidconsortium.net/#objects/21.T11148/df4aab1aaf6c1cd41a70
+    - Has Annotation (inherits from Has Metadata): https://dtr-test.pidconsortium.net/#objects/21.T11148/210acdb71caa2e4c55cc
     - Document MIME Type: https://dtr-test.pidconsortium.net/#objects/21.T11148/77e7da3320d24e21008b
     - Schema Reference: https://dtr-test.pidconsortium.net/#objects/21.T11148/49330041ca5fddf9af92
     - Container MIME-Type: https://dtr-test.pidconsortium.net/#objects/21.T11148/007fb75612859ed30aa0
     - Language: https://dtr-test.pidconsortium.net/#objects/21.T11148/43fd02fd11bca92e7b37
     - Semantic scholar Id: https://dtr-test.pidconsortium.net/#objects/21.T11148/01bdb13fcd6d26156cf2
     - Publisher: https://dtr-test.pidconsortium.net/#objects/21.T11148/b497a0aad7d4c7179b4f
-    - Is Publication For (inherits from isMetadataFor): https://dtr-test.pidconsortium.net/#objects/21.T11148/ca2ebad82c2c5a100182
-    - Has Citation (inherits from hasMetadata): https://dtr-test.pidconsortium.net/#objects/21.T11148/2d4d83f729fc8c3483b5
+    - Is Publication For (inherits from Is Metadata For): https://dtr-test.pidconsortium.net/#objects/21.T11148/ca2ebad82c2c5a100182
+    - Has Citation (inherits from Has Metadata): https://dtr-test.pidconsortium.net/#objects/21.T11148/2d4d83f729fc8c3483b5
     - Programming Language: https://dtr-test.pidconsortium.net/#objects/21.T11148/fa7511b19d58efa10f2a
     - Dependencies: https://dtr-test.pidconsortium.net/#objects/21.T11148/495117c3604f83ec4b52
     - Is Software For: https://dtr-test.pidconsortium.net/#objects/21.T11148/b9665c62fe864b1a34e5
