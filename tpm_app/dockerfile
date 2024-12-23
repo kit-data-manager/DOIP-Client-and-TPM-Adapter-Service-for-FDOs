@@ -1,5 +1,5 @@
 # Use OpenJDK 11 with Python installed
-FROM openjdk:17-buster
+FROM openjdk:21-buster
 
 # Install Python, Git, and other necessary tools
 RUN apt-get update && apt-get install -y \
@@ -17,6 +17,8 @@ ARG REPO_URL=https://github.com/kit-data-manager/pit-service.git
 RUN git clone $REPO_URL tpm-app
 WORKDIR /app/tpm-app
 
+
+
 # Use Gradlew to build the project
 #RUN chmod +x ./gradlew
 #RUN ./gradlew build
@@ -25,4 +27,4 @@ WORKDIR /app/tpm-app
 EXPOSE 8090
 
 # Start processes via Supervisord
-CMD ["./gradlew", "run", "--args=--spring.config.location=config/application.properties"]
+CMD ["./gradlew", "run", "--args=--spring.config.location=config/application-default.properties"]

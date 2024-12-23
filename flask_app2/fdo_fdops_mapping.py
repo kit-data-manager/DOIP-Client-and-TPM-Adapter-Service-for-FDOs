@@ -2,6 +2,7 @@ import json
 import re
 import copy
 
+### TODO make Web API Execution Protocol (EP) specific mapping and implement additional mappings if a sub-EP is defined by a different EP.
 class OperationMapping:
     def __init__(self):
         self.M_a = {}

@@ -5,3 +5,5 @@ requests
 Flask
 jsonschema
 zstandard
+neo4j
+elasticsearch
