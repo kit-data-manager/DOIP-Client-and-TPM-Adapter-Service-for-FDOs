@@ -1,12 +1,10 @@
 from neo4j import GraphDatabase
 
-
-
 class Neo4j_FDO_Manager:
-    def __init__(self):
+    def __init__(self, endpoint, name, pw):
         # Connect to the Neo4j database
-        uri = "bolt://neo4j:7687"  # Change if Neo4j is running on a different host or port
-        self.driver = GraphDatabase.driver(uri, auth=("neo4j", "testpassword"))
+        uri = endpoint
+        self.driver = GraphDatabase.driver(uri, auth=(name, pw))
         print("setup sucessful")
 
     def close(self):

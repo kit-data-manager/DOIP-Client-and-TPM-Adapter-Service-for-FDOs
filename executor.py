@@ -1,25 +1,16 @@
 import requests
 import time
+import yaml
 
 class Executor:
-    def __init__(self):
+    def __init__(self, config_file='executor_config.yaml'):
         # Initialize a session for connection reuse
         self.stored_responses = {}
-        self.pids = {
-            "contentHeaderType":  "21.T11148/66c4de21f77739edb009",
-            "httpEndpointLocation": "21.T11148/50b78494937d6085d763",
-            "httpMethod": "21.T11148/791a2295375e3cd9dfee",
-            "httpHeaders": "21.T11148/e92d9f23abd63ebea855",
-            "httpQueries": "21.T11148/916ca3badfa68b06870c",
-            "httpBody": "21.T11148/0c055f37730ce8b376e5",
-            "httpFile": "21.T11148/3591e6f2f123dcc14aee",
-            "order": "21.T11148/cce55e4309a753985bdd",
-            "httpParameterKey": "21.T11148/574c609fddc9a50c409f",
-            "httpParameterValue": "21.T11148/d08567465008206eb123",
-            "asArray": "21.T11148/931e01f99fcb1a4f60e7",
-            "httpParameterValueMap": "21.T11148/859aae499b8021af1ad9",
-            "httpEndpointPathParameter": "21.T11148/23f7a91300c3db80aa9f"
-        }
+        
+        with open(config_file, 'r') as f:
+            config = yaml.safe_load(f)
+            self.pids = config.get('pids', {})
+        
         self.elapsed_time = 0
     # Function to execute the request with flexibility
 

@@ -1,0 +1,38 @@
+pits:
+  contentHeaderType: "21.T11148/66c4de21f77739edb009"
+  httpEndpointLocation: "21.T11148/50b78494937d6085d763"
+  httpMethod: "21.T11148/791a2295375e3cd9dfee"
+  httpHeaders: "21.T11148/e92d9f23abd63ebea855"
+  httpQueries: "21.T11148/916ca3badfa68b06870c"
+  httpBody: "21.T11148/0c055f37730ce8b376e5"
+  httpFile: "21.T11148/3591e6f2f123dcc14aee"
+  order: "21.T11148/cce55e4309a753985bdd"
+  parameterKey: "21.T11148/574c609fddc9a50c409f"
+  parameterValue: "21.T11148/d08567465008206eb123"
+  parameterValueType: "21.T11148/931e01f99fcb1a4f60e7"
+  httpParameterValueMap: "21.T11148/859aae499b8021af1ad9"
+  httpEndpointPathParameter: "21.T11148/23f7a91300c3db80aa9f"
+  requiredInputType: "21.T11148/2694e4a7a5a00d44e62b"
+  requiredInputKey: "21.T11148/a976172668c68034d96c"
+
+elasticsearch:
+  endpoint: "http://elasticsearch:9200"
+
+mode: "testing"  # Change to 'deployment' for deployment mode
+
+graph_db:
+  endpoint: "bolt://neo4j:7687"
+  name: "neo4j"
+  pw: "testpassword"
+  index_name: "fdo_records"
+
+tpm:
+  base_url: "http://tpmapp:8090/"
+  get_known_pids: "api/v1/pit/known-pid?page=0&size=20"
+  single_pid_url: "api/v1/pit/pid/"
+
+mapper:
+  supported_execution_protocols: ["21.T11148/c49530fe33af5e14083f"]
+  file_name: "fdo_fdops_mapping"
+  class_name: "OperationMapping"
+  has_subtypes: False

@@ -1,35 +1,76 @@
 from flask import Flask, request, jsonify, abort, send_file
 import json
 import requests
-from fdo_fdops_mapping import OperationMapping
-from execute_request import Executor
+from executor import Executor
 import re
 import base64
 from setup_db import Neo4j_FDO_Manager
 from elasticsearch import Elasticsearch
 import logging
+import yaml
+import importlib
+import importlib.util
+import sys
+import json
+from typing import Optional, List
 
 app = Flask(__name__)
 
-# Example configuration setting
-app.config['MODE'] = 'testing'  # Change to 'deployment' for deployment mode
-manager = Neo4j_FDO_Manager()
-es = Elasticsearch("http://elasticsearch:9200")
-index_name = "fdo_records"
+config_file='tpm_adapter_config.yaml'
+with open(config_file, 'r') as f:
+    config = yaml.safe_load(f)
+
+    # Load PIT configurations
+    pits = config.get('pits', {})
+
+# Deployment mode
+app.config['MODE'] = config.get('mode', {}) 
+
+# Neo4j setup
+neo4j_conf=config.get('graph_db', {})
+manager = Neo4j_FDO_Manager(neo4j_conf.get('endpoint'), neo4j_conf.get('name'), neo4j_conf.get('pw'))
+
+# Elastic search setup
+ealstic_conf=config.get('elasticsearch', {})
+es_instance = Elasticsearch(ealstic_conf.get('endpoint'))
+es_index_name = ealstic_conf.get('index_name')
 mapping = {
     "mappings": {
         "dynamic": "true"  # Dynamically map fields
     }
 }
-# Create th ES index
-if not es.indices.exists(index=index_name):
-    es.indices.create(index=index_name, body=mapping)
-    print(f"Index '{index_name}' created with dynamic mapping!")
+
+if not es_instance.indices.exists(index=es_index_name):
+    es_instance.indices.create(index=es_index_name, body=mapping)
+    print(f"Index '{es_index_name}' created with dynamic mapping!")
 else:
-    print(f"Index '{index_name}' already exists.")
+    print(f"Index '{es_index_name}' already exists.")
+
+# TPM setup
+tpm_conf=config.get('tpm', {})
+base_url = tpm_conf.get('base_url')
+get_known_pids_url = base_url+tpm_conf.get('get_known_pids')
+create_fdo_url = base_url+tpm_conf.get('single_pid_url')+"?dryrun=false"
+get_fdo_url = base_url+tpm_conf.get('single_pid_url')
+
+# Mapper setup
+mapper = config.get('mapper', {})
+mapping_protocols = mapper.get('mapping_protocols')
+module_name=mapper.get('module')
+file_name = mapper.get('file_name')
+class_name = mapper.get('class_name')
+spec = importlib.util.spec_from_file_location(module_name, file_name)
+if spec is None or spec.loader is None:
+    raise ImportError(f"Could not load spec for module {module_name} from {file_name}")
+module = importlib.util.module_from_spec(spec)
+sys.modules[module_name] = module
+spec.loader.exec_module(module)
+cls = getattr(module, class_name)
+mapper=cls(pits.get('parameterKey'), pits.get('parameterValue'), pits.get('parameterValueType'), mapper.get('has_subtypes'))
+
 internal_functions = {
     "0.DOIP/Op.LIST_Ops": {"operationID": "0.DOIP/Op.LIST_Ops", "targetID": "Service or Object", "arguments": "None", "response type": "map of service operation specifications or map of supported FDOPs for the target object"},  # This function lists all available operations
-    "0.DOIP/Op.LIST_FDOs": {"operationID": "0.DOIP/Op.LIST_FDOs", "targetID": "Service", "arguments": "None", "response type": "array of FDO PIDs"},
+    "0.DOIP/Op.LIST_FDOs": {"operationID": "0.DOIP/Op.LIST_FDOs", "targetID": "Service", "arguments": "None", "response type": "array of FDO pits"},
     "0.DOIP/Op.GET_FDO": {"operationID": "0.DOIP/Op.GET_FDO", "targetID": "Object", "arguments": "None", "response type": "PID record"},
     "*FDO_Operation": {"operationID": "Object", "targetID": "Object", "arguments": "*", "response type": "JSON object or encoded binary data"}
 }
@@ -38,92 +79,107 @@ def list_service_ops():
     # List all internal functions available for handle_doip
     return internal_functions
 
-def list_fdos(fdo_file='fdo_list.json', tpm_arg='fdos'):
-    '''if app.config['MODE'] == 'testing':
-        # Read from a JSON file in testing mode
-        with open(fdo_file, 'r') as file:
-            fdo_list = json.load(file)
-        return fdo_list
-    elif app.config['MODE'] == 'deployment':'''
-    # Make a GET request to the external service in deployment mode
-    url = 'http://tpmapp:8090/api/v1/pit/known-pid?page=0&size=20'
+def index_fdo_records():
+    url = get_known_pids_url
     headers = {
         'accept': 'application/hal+json'
     }
-
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         fdo_list = response.json()
+        for fdo_pid in fdo_list:
+            if es_instance.exists(index="fdo_records", id=fdo_pid):
+                pass
+            else:
+                fdo_record=get_fdo(fdo_pid)
+                es_instance.index(index="fdo_records", id=fdo_pid, document=fdo_record)
     else:
         fdo_list = {'error': 'Failed to retrieve data from the external service'}
-    return fdo_list
+    return
+
+def list_fdos(query_parameters: Optional[List[str]] = None):
     
-def search_fdos(data_query):
-    """
-    Uses elastic search to retrieve a set of information records based on their contents.
-    """
-    url = 'http://tpmapp:8090/api/v1/search'
-    headers = {
-        'accept': 'application/hal+json'
-    }
-    data=data_query
-    response = requests.post(url, headers=headers, data=data)
-    if response.status_code == 200:
-        elastic_response = response.json()
-        if elastic_response["hits"]["total"] > 0:
-            return elastic_response
-        else:
-            elastic_response = {'error': 'Failed to retrieve records with elastic search.'}
+    if query_parameters is not None:
+        fdo_pids=execute_elastic_query(query_parameters)
     else:
-        elastic_response = {'error': 'Failed to retrieve records with elastic search.'}
-        
-    return elastic_response
+        url = get_known_pids_url
+        headers = {
+            'accept': 'application/hal+json'
+        }
+
+        response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        fdo_pids = response.json()
+    else:
+        fdo_pids = {'error': 'Failed to retrieve data from the external service'}
+    return fdo_pids
 
 def get_required_input_type(requiredInput):
     key_value_list=[]
     for required_input_type in requiredInput:
         key_value_subsets={}
         required_input_type = convert_value_to_dict(required_input_type['value'])
-        for key,value in zip(required_input_type['21.T11148/a976172668c68034d96c'], required_input_type['21.T11148/dece113486d8c5ebcf8d']):
+        for key,value in zip(required_input_type[pits.get('requiredInputKey')], required_input_type[pits.get('requiredInputValue')]):
             key_value_subsets[key['value']] = value['value']
         key_value_list.append(key_value_subsets)
     return key_value_list
 
 def check_ops_associations(record):
-    if record["entries"]['21.T11148/2694e4a7a5a00d44e62b']:
-        # Assumin the record in a operation representing FDO
-        key_value_list=get_required_input_type(record["entries"]['21.T11148/2694e4a7a5a00d44e62b'])
+    if record["entries"][pits.get('requiredInputType')]:
+        # Assumin the record is from an Operation FDO
+        key_value_list=get_required_input_type(record["entries"][pits.get('requiredInputType')])
         matched_records=execute_elastic_query(key_value_list)
         # Extract documents into a list
         matched_records = [hit["_source"] for hit in matched_records["hits"]["hits"]]
         make_graph_connections(record["pid"], matched_records)
     else:
-        # Assuming the record is a non-operation representing FDO
+        # Assuming the record is from a non-Operation FDO
         ops_search_query = {
             "query": {
                 "exists": {
-                    "field": "21.T11148/2694e4a7a5a00d44e62b"
+                    "field": pits.get('requiredInputType')
                 }
             }
         }
-        operation_records = es.search(index="fdo_records", body=ops_search_query)
+        operation_records = es_instance.search(index="fdo_records", body=ops_search_query)
         for ops_rec in operation_records:
-            if ops_rec["entries"]['21.T11148/2694e4a7a5a00d44e62b']:
-                key_value_list=get_required_input_type(ops_rec["entries"]['21.T11148/2694e4a7a5a00d44e62b'])
+            if ops_rec["entries"][pits.get('requiredInputType')]:
+                key_value_list=get_required_input_type(ops_rec["entries"][pits.get('requiredInputType')])
                 matched_records=execute_elastic_query(key_value_list)
                 make_graph_connections(record["pid"], matched_records)
                 
 
 def make_graph_connections(ops_pid, target_fdo_list):
-    # Create connections in the graph db
+    # Create new connections in the graph db
     manager.add_fdo(ops_pid)
     for ma_rec in target_fdo_list:
         manager.add_fdo(ma_rec["pid"])
         manager.create_fdo_has_operation_relationship(ops_pid, ma_rec["pid"])
     return
 
-def execute_elastic_query(key_value_list):
-    query = {
+def execute_elastic_query(key_value_list: list, subset=False):
+    if subset == True:
+        
+        query = {
+        "query": {
+            "bool": {
+                "should": [
+                    {
+                        "bool": {
+                            "filter": [
+                                {"term": {f"entries.{key}": value}} if value != "NoType" else {"exists": {"field": f"entries.{key}"}}
+                                for key, value in subset.items()
+                            ]
+                        }
+                    }
+                    for subset in key_value_list
+                ]
+            }
+        },
+        "_source": ["pid"]
+    }
+    else:
+        query = {
         "query": {
             "bool": {
                 "should": [
@@ -140,20 +196,19 @@ def execute_elastic_query(key_value_list):
             }
         }
     }
-    response = es.search(index="fdo_records", body=query)
+    response = es_instance.search(index="fdo_records", body=query)
     return response
 
 def create_fdo(record):
-    url = 'http://tpmapp:8090/api/v1/pit/pid/?dryrun=false'
+    url = create_fdo_url
     headers = {
         'accept': 'application/json',
         'Content-Type': 'application/json'
     }
-    logging.warning(type(record))
     response = requests.post(url, json=record, headers=headers)
     if (response.status_code == 200) or (response.status_code == 201):
         created_record = response.json()
-        es.index(index="fdo_records", document=created_record)
+        es_instance.index(index="fdo_records", document=created_record)
         # Check operation associations and ingest in graph db
         check_ops_associations(created_record)
         message = response.text
@@ -166,7 +221,7 @@ def get_fdo(target_id):
     """
     Retrieves a specific FDO information record by target_id.
     """
-    url = f'http://tpmapp:8090/api/v1/pit/pid/{target_id}?validation=false'
+    url = f'{get_fdo_url}{target_id}?validation=false'
     headers = {
         'accept': 'application/json'
     }
@@ -179,7 +234,7 @@ def get_fdo(target_id):
 
     return fdo_record
 
-# Function to convert the 'value' string into a dictionary
+# Helper function to convert the 'value' string into a dictionary
 def convert_value_to_dict(item):
     try:
         # This assumes that the string representation uses single quotes for the outermost layer and does not contain single quotes within strings.
@@ -198,29 +253,22 @@ def list_fdops(target_id):
 )
     return all_supported_fdops
 
-def get_operation_execution_protocol(operation_record):
-    supportedProtocols = ['21.T11148/a1fe3f60497302ae8b04']
-    for protocol in supportedProtocols:
-        if protocol in operation_record["entries"]:
-            return convert_value_to_dict(operation_record["entries"][protocol][0]["value"])
+def get_operation_execution_protocol(operation_fdo_record):
+    for protocol in mapping_protocols:
+        if protocol in operation_fdo_record["entries"]:
+            return convert_value_to_dict(operation_fdo_record["entries"][protocol][0]["value"])
     return None
 
 def map_records(operation_id, target_id, client_input=None):
-    operation_record = get_fdo(operation_id)
-    target_record = get_fdo(target_id)
-    mapping = OperationMapping()
-    access_protocol = get_operation_execution_protocol(operation_record)
-    if access_protocol is None:
-        return {"error": "Operation access protocol not supported."}
-    # map the operation record's access protocol with the target_record
-    mapping.operation_mapping(access_protocol, target_record, client_input)
-    sorted_fdo_fdops_map = {key: mapping.WF[key] for key in sorted(mapping.WF)}
-    return sorted_fdo_fdops_map
-
-def execute_request(fdo_fdops_map):
-    executor = Executor()
-    responses, elapsed_time = executor.select_request(fdo_fdops_map)
-    return responses, elapsed_time
+    operation_fdo_record = get_fdo(operation_id)
+    target_fdo_record = get_fdo(target_id)
+    #mapping = OperationMapping()
+    execution_protocol = get_operation_execution_protocol(operation_fdo_record)
+    if execution_protocol is None:
+        return {"error": "Operation execution protocol not supported."}
+    # map the operation record's execution protocol with the target_record
+    Map=mapper.map_and_transfer(operation_fdo_record, execution_protocol, target_fdo_record, client_input)
+    return Map
 
 @app.route('/doip', methods=['GET', 'POST'])
 def handle_doip():
@@ -249,46 +297,30 @@ def handle_doip():
     elif operation_id.upper() == "0.DOIP/OP.LIST_OPS" and target_id.upper() == "SERVICE":
         available_functions = list_service_ops()
         elapsed_time =0
-        #print(f"Elapsed time: {elapsed_time:.2f} seconds")
         return jsonify({"response": {"available service operations": available_functions}, "elapsed_time": elapsed_time})
 
     # Call the function to list_FDOs based on specific operationId
     elif operation_id.upper() == "0.DOIP/OP.LIST_FDOS" and target_id.upper() == "SERVICE":
         fdo_list = list_fdos()
         elapsed_time =0
-        #print(f"Elapsed time: {elapsed_time:.2f} seconds")
         return jsonify({"response": {"available FDOs": fdo_list}, "elapsed_time": elapsed_time})
         
     elif operation_id.upper() == "0.DOIP/OP.LIST_OPS" and target_id:
         fdops_list = list_fdops(target_id)
         elapsed_time =0
-        #print(f"Elapsed time: {elapsed_time:.2f} seconds")
         return jsonify({"response": {"available FDOps": fdops_list}, "elapsed_time": elapsed_time})
 
     elif operation_id.upper() == "0.DOIP/OP.GET_FDO" and target_id:
         fdo_record = get_fdo(target_id)
         elapsed_time =0
-        #print(f"Elapsed time: {elapsed_time:.2f} seconds")
         return jsonify({"response": {"FDO record": fdo_record}, "elapsed_time": elapsed_time})
 
     elif (operation_id) and (re.match(r'sandboxed\/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}', str(target_id))):
         if attributes is not None:
-            fdo_fdops_map = map_records(operation_id, target_id, client_input=attributes)
+            target_operation_map = map_records(operation_id, target_id, client_input=attributes)
         else:
-            fdo_fdops_map = map_records(operation_id, target_id)
-        # Stop timing before the api request function
-        #elapsed_time = end_time - start_time
-        #print(f"Elapsed time: {elapsed_time:.2f} seconds")
-        response, elapsed_time = execute_request(fdo_fdops_map)
-        try:
-            return jsonify({"response": {"operation result": response}, "elapsed_time": elapsed_time})
-        except TypeError as e:
-            #print(response)
-            # Encoding binary data to Base64 strings
-            encoded_response = {key: base64.b64encode(value).decode('utf-8') for key, value in response.items()}
-
-            # Sending the encoded data as JSON
-            return jsonify({"response": {"operation result": encoded_response}, "elapsed_time": elapsed_time})
+            target_operation_map = map_records(operation_id, target_id)
+        return jsonify(message="mapped FDO-Ops request", data=target_operation_map)
     else:
         return jsonify({"error": "Invalid operationId or targetId."})
 
