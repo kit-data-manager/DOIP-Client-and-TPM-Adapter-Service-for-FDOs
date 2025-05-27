@@ -17,6 +17,7 @@ pits:
 
 elasticsearch:
   endpoint: "http://elasticsearch:9200"
+  index_name: "fdo_records"
 
 mode: "testing"  # Change to 'deployment' for deployment mode
 
@@ -33,6 +34,7 @@ tpm:
 
 mapper:
   supported_execution_protocols: ["21.T11148/c49530fe33af5e14083f"]
-  file_name: "fdo_fdops_mapping"
+  module_name: "fdo_fdops_mapping"
+  file_name: "fdo_fdops_mapping.py"
   class_name: "OperationMapping"
   has_subtypes: False

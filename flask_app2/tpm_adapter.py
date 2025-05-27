@@ -1,9 +1,7 @@
 from flask import Flask, request, jsonify, abort, send_file
 import json
 import requests
-from executor import Executor
 import re
-import base64
 from setup_db import Neo4j_FDO_Manager
 from elasticsearch import Elasticsearch
 import logging
@@ -13,6 +11,12 @@ import importlib.util
 import sys
 import json
 from typing import Optional, List
+import sys
+from importlib.metadata import version
+import ast
+
+pkg_version = version('elasticsearch')  # replace 'numpy' with your package
+logging.warning(f"elasticsearch version: {pkg_version}")
 
 app = Flask(__name__)
 
@@ -34,6 +38,7 @@ manager = Neo4j_FDO_Manager(neo4j_conf.get('endpoint'), neo4j_conf.get('name'), 
 ealstic_conf=config.get('elasticsearch', {})
 es_instance = Elasticsearch(ealstic_conf.get('endpoint'))
 es_index_name = ealstic_conf.get('index_name')
+#logging.info("test", es_instance)
 mapping = {
     "mappings": {
         "dynamic": "true"  # Dynamically map fields
@@ -42,9 +47,9 @@ mapping = {
 
 if not es_instance.indices.exists(index=es_index_name):
     es_instance.indices.create(index=es_index_name, body=mapping)
-    print(f"Index '{es_index_name}' created with dynamic mapping!")
+    logging.warning(f"Index '{es_index_name}' created with dynamic mapping!")
 else:
-    print(f"Index '{es_index_name}' already exists.")
+    logging.warning(f"Index '{es_index_name}' already exists.")
 
 # TPM setup
 tpm_conf=config.get('tpm', {})
@@ -56,7 +61,7 @@ get_fdo_url = base_url+tpm_conf.get('single_pid_url')
 # Mapper setup
 mapper = config.get('mapper', {})
 mapping_protocols = mapper.get('mapping_protocols')
-module_name=mapper.get('module')
+module_name=mapper.get('module_name')
 file_name = mapper.get('file_name')
 class_name = mapper.get('class_name')
 spec = importlib.util.spec_from_file_location(module_name, file_name)
@@ -66,7 +71,7 @@ module = importlib.util.module_from_spec(spec)
 sys.modules[module_name] = module
 spec.loader.exec_module(module)
 cls = getattr(module, class_name)
-mapper=cls(pits.get('parameterKey'), pits.get('parameterValue'), pits.get('parameterValueType'), mapper.get('has_subtypes'))
+mapper=cls(mapper.get('has_subtypes'), pits)
 
 internal_functions = {
     "0.DOIP/Op.LIST_Ops": {"operationID": "0.DOIP/Op.LIST_Ops", "targetID": "Service or Object", "arguments": "None", "response type": "map of service operation specifications or map of supported FDOPs for the target object"},  # This function lists all available operations
@@ -115,10 +120,12 @@ def list_fdos(query_parameters: Optional[List[str]] = None):
     return fdo_pids
 
 def get_required_input_type(requiredInput):
+    #logging.warning("before", requiredInput, type(requiredInput))
     key_value_list=[]
     for required_input_type in requiredInput:
         key_value_subsets={}
         required_input_type = convert_value_to_dict(required_input_type['value'])
+        logging.warning("after", requiredInput, required_input_type)
         for key,value in zip(required_input_type[pits.get('requiredInputKey')], required_input_type[pits.get('requiredInputValue')]):
             key_value_subsets[key['value']] = value['value']
         key_value_list.append(key_value_subsets)
@@ -236,13 +243,22 @@ def get_fdo(target_id):
 
 # Helper function to convert the 'value' string into a dictionary
 def convert_value_to_dict(item):
-    try:
-        # This assumes that the string representation uses single quotes for the outermost layer and does not contain single quotes within strings.
-        corrected_json_str = item.replace("'", '"')
-        return json.loads(corrected_json_str)
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON: {e}")
-        return {}
+    logging.warning(item)
+    if isinstance(item, dict):
+        return {
+            key: convert_value_to_dict(value)
+            for key, value in item.items()
+        }
+    elif isinstance(item, list):
+        return [convert_value_to_dict(item) for item in item]
+    elif isinstance(item, str):
+        try:
+            parsed = ast.literal_eval(item)
+            if isinstance(parsed, (dict, list)):
+                return convert_value_to_dict(parsed)
+        except (ValueError, SyntaxError):
+            pass
+    return item
 
 def list_fdops(target_id):
     
@@ -290,6 +306,7 @@ def handle_doip():
     elif operation_id.upper() == "0.DOIP/OP.CREATE_FDO" and target_id.upper() == "SERVICE":
         fdo_record=create_fdo(attributes)
         elapsed_time =0
+        logging.warning(fdo_record)
         #print(f"Elapsed time: {elapsed_time:.2f} seconds")
         return({"response": {"created FDO record": fdo_record}, "elapsed_time": elapsed_time})
 
