@@ -5,6 +5,7 @@ import tarfile
 import numpy as np
 from PIL import Image
 import io
+import zstandard as zstd
 
 def ensure_three_channels(array):
     """
@@ -72,25 +73,44 @@ def convert_npy_to_png(npy_file_obj, output_path):
 def process_tar_archive(tar_path, output_dir):
     print(f"Processing archive: {tar_path}")
     try:
-        with tarfile.open(tar_path, 'r:gz') as tar:
-            for member in tar.getmembers():
-                if member.isfile() and member.name.endswith('.npy'):
-                    npy_file = tar.extractfile(member)
-                    if npy_file is None:
-                        continue
-
-                    # Create an output filename using the tar base and member name.
-                    tar_base = os.path.splitext(os.path.basename(tar_path))[0]
-                    if tar_base.endswith('.tar'):
-                        tar_base = tar_base[:-4]
-                    member_name = os.path.basename(member.name)
-                    output_filename = f"{tar_base}_{os.path.splitext(member_name)[0]}.png"
-                    output_filepath = os.path.join(output_dir, output_filename)
-                    
-                    if convert_npy_to_png(npy_file, output_filepath):
-                        print(f"Saved PNG image: {output_filepath}")
-                    else:
-                        print(f"Failed to convert {member.name} in archive {tar_path}")
+        if tar_path.endswith('.tar.zst'):
+            with open(tar_path, 'rb') as compressed:
+                dctx = zstd.ZstdDecompressor()
+                with dctx.stream_reader(compressed) as reader:
+                    with tarfile.open(fileobj=reader, mode='r|') as tar:
+                        for member in tar:
+                            if member.isfile() and member.name.endswith('.npy'):
+                                npy_file = tar.extractfile(member)
+                                if npy_file is None:
+                                    continue
+                                tar_base = os.path.splitext(os.path.basename(tar_path))[0]
+                                if tar_base.endswith('.tar'):
+                                    tar_base = tar_base[:-4]
+                                member_name = os.path.basename(member.name)
+                                output_filename = f"{tar_base}_{os.path.splitext(member_name)[0]}.png"
+                                output_filepath = os.path.join(output_dir, output_filename)
+                                if convert_npy_to_png(npy_file, output_filepath):
+                                    print(f"Saved PNG image: {output_filepath}")
+                                else:
+                                    print(f"Failed to convert {member.name} in archive {tar_path}")
+        else:
+            # fallback for tar.gz
+            with tarfile.open(tar_path, 'r:gz') as tar:
+                for member in tar.getmembers():
+                    if member.isfile() and member.name.endswith('.npy'):
+                        npy_file = tar.extractfile(member)
+                        if npy_file is None:
+                            continue
+                        tar_base = os.path.splitext(os.path.basename(tar_path))[0]
+                        if tar_base.endswith('.tar'):
+                            tar_base = tar_base[:-4]
+                        member_name = os.path.basename(member.name)
+                        output_filename = f"{tar_base}_{os.path.splitext(member_name)[0]}.png"
+                        output_filepath = os.path.join(output_dir, output_filename)
+                        if convert_npy_to_png(npy_file, output_filepath):
+                            print(f"Saved PNG image: {output_filepath}")
+                        else:
+                            print(f"Failed to convert {member.name} in archive {tar_path}")
     except Exception as e:
         print(f"Error processing tar archive {tar_path}: {e}")
 
