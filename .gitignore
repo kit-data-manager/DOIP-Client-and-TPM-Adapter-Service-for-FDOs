@@ -2,4 +2,6 @@ __pycache__/
 .mypy_cache/
 .vscode/
 .DS_Store
-flask_app2/test_mapper.py
+flask_app/test_mapper.py
+test_scripts/
+test_executor_script.py
