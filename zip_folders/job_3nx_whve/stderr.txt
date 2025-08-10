@@ -1,0 +1,2200 @@
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '48.07'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3.03'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '40.02'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '40.03'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '39.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '48.03'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.04'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '6.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '39.05'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '51.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.03'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3.04'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3.02'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '3.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '66.03'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '45.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '28.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '39.04'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '7.02'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '66.04'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '28.02'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '56.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '39.03'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '48.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '53.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '39.02'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '66.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '66.05'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '40.04'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '48.06'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '66.02'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '59.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '48.05'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '67.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '48.02'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '2.02'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '48.04'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#int, Converter=<class 'int'>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '40.01'
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes
+Failed to convert Literal lexical form to value. Datatype=http://www.w3.org/2001/XMLSchema#date, Converter=<function parse_xsd_date at 0x7f46aa9a9c60>
+Traceback (most recent call last):
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/term.py", line 2163, in _castLexicalToPython
+    return conv_func(lexical)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.11/site-packages/rdflib/xsd_datetime.py", line 592, in parse_xsd_date
+    raise ValueError("XSD Date string must contain at least two dashes")
+ValueError: XSD Date string must contain at least two dashes

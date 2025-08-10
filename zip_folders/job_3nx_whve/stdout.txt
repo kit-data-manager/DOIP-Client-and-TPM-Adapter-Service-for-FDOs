@@ -1,0 +1,30 @@
+Error parsing RDF file '/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/README.md': Could not guess RDF format for <_io.BufferedReader name='/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/README.md'> from file extension so tried Turtle but failed.You can explicitly specify format using the format argument.
+Error parsing RDF file '/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/.gitignore': Could not guess RDF format for <_io.BufferedReader name='/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/.gitignore'> from file extension so tried Turtle but failed.You can explicitly specify format using the format argument.
+Error parsing RDF file '/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/LICENSE': Could not guess RDF format for <_io.BufferedReader name='/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/LICENSE'> from file extension so tried Turtle but failed.You can explicitly specify format using the format argument.
+Error parsing RDF file '/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/index.html': No plugin registered for (rdfa, <class 'rdflib.parser.Parser'>)
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/dhcs1_dha-unesco/target.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/dhcs1_dha-unesco/source.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/dhcs1_dha-unesco/reference.rdf': Valid SKOS file: False.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch3_ironagedanube-pactols/target.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch3_ironagedanube-pactols/source.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch3_ironagedanube-pactols/reference.rdf': Valid SKOS file: False.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch1_defc-pactols/target.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch1_defc-pactols/source.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch1_defc-pactols/reference.rdf': Valid SKOS file: False.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch4_pactols-parthenos/target.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch4_pactols-parthenos/source.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch4_pactols-parthenos/reference.rdf': Valid SKOS file: False.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/cult2_oeai-parthenos/target.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/cult2_oeai-parthenos/source.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/cult2_oeai-parthenos/reference.rdf': Valid SKOS file: False.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch2_idai-pactols/target.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch2_idai-pactols/source.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/arch2_idai-pactols/reference.rdf': Valid SKOS file: False.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/dhcs2_tadirah-unesco/target.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/dhcs2_tadirah-unesco/source.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/dhcs2_tadirah-unesco/reference.rdf': Valid SKOS file: False.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/cult1_idai-parthenos/target.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/cult1_idai-parthenos/source.rdf': Valid SKOS file: True.
+'/tmp/job_3nx_whve/tmpyu92pgcw/FelixFrizzy-DH-benchmark-ddc6e11/cult1_idai-parthenos/reference.rdf': Valid SKOS file: False.
+
+Processed 28 files; 16 valid SKOS files.

@@ -1,0 +1,66 @@
+{
+  "head": {
+    "vars": [
+      "concept",
+      "prefLabel",
+      "altLabel",
+      "definition",
+      "broaderConcept",
+      "broaderLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://vocabularies.unesco.org/thesaurus/concept1557"
+        },
+        "prefLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Remote sensing"
+        },
+        "altLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Sensors"
+        },
+        "broaderConcept": {
+          "type": "uri",
+          "value": "http://vocabularies.unesco.org/thesaurus/concept5530"
+        },
+        "broaderLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Encoding"
+        }
+      },
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://vocabularies.unesco.org/thesaurus/concept1557"
+        },
+        "prefLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Remote sensing"
+        },
+        "altLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Telemetry"
+        },
+        "broaderConcept": {
+          "type": "uri",
+          "value": "http://vocabularies.unesco.org/thesaurus/concept5530"
+        },
+        "broaderLabel": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Encoding"
+        }
+      }
+    ]
+  }
+}
