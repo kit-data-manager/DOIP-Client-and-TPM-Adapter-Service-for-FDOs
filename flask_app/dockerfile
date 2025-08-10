@@ -1,0 +1,40 @@
+FROM openjdk:21-slim-bookworm
+
+# Install required packages
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3.11 \
+    python3.11-venv \
+    python3.11-distutils \
+    python3-pip \
+    curl \
+    vim
+
+# Create and activate virtual environment using Python 3.11
+RUN python3.11 -m venv /opt/venv
+
+# Upgrade pip in the virtual environment
+RUN /opt/venv/bin/pip install --upgrade pip
+
+# Set PATH to use venv by default
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Set working directory
+WORKDIR /app/flask_app
+
+# Copy only the requirements.txt initially to leverage Docker cache
+COPY ../requirements.txt /app/flask_app
+
+# Install any needed packages specified in requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+RUN pip3 show elasticsearch
+
+# Now copy the rest of your application
+COPY . /app/flask_app
+
+# Make port 5002 available to the world outside this container
+EXPOSE 5002
+
+# Command to run the app (this can be overridden by docker-compose)
+CMD ["python3", "tpm_adapter.py"]

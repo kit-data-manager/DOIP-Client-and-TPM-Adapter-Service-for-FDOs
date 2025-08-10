@@ -10,7 +10,7 @@ services:
       - "9200:9200"
     mem_limit: 1g
     healthcheck:
-      test: curl -sSf http://localhost:9200/_cluster/health || exit 1
+      test: curl -sSf http://localhost:9200 || exit 1
       interval: 10s
       timeout: 5s
       retries: 5
@@ -22,7 +22,7 @@ services:
     ports:
       - "8090:8090"
     healthcheck:
-      test: curl -sSf http://localhost:8090/health || exit 1
+      test: ["CMD", "curl", "-f", "http://localhost:8090/swagger-ui.html"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -41,23 +41,23 @@ services:
       - neo4j_logs:/logs # Persist logs
       - neo4j_import:/var/lib/neo4j/import # For importing files
       - neo4j_plugins:/plugins # For additional plugins
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://localhost:7474 | grep -q '\"neo4j_version\"'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
-  flaskapp1:
+  flaskapp:
     build:
-      context: ./flask_app1
-      dockerfile: dockerfile
-    ports:
-      - "5001:5001"
-
-  flaskapp2:
-    build:
-      context: ./flask_app2
+      context: ./flask_app
       dockerfile: dockerfile
     ports:
       - "5002:5002"
     depends_on:
-      - elasticsearch
-      - neo4j
+      elasticsearch:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
     volumes:
       - ./:/app
 
