@@ -1,0 +1,66 @@
+{
+    "entries": {
+      "21.T11148/aafd5fb4c7222e2d950a": [
+        {
+          "key": "21.T11148/aafd5fb4c7222e2d950a",
+          "name": "dateCreated",
+          "value": "2025-04-09T00:00:00+00:00"
+        }
+      ],
+      "21.T11148/1c699a5d1b4ad3ba4956": [
+        {
+          "key": "21.T11148/1c699a5d1b4ad3ba4956",
+          "name": "digitalObjectType",
+          "value": "21.T11148/86c11d9215ebc2d2c8ff"
+        }
+      ],
+      "21.T11148/2f314c8fe5fb6a0063a8": [
+        {
+          "key": "21.T11148/2f314c8fe5fb6a0063a8",
+          "name": "licenseURL",
+          "value": "https://opensource.org/license/mit"
+        }
+      ],
+      "21.T11148/076759916209e5d62bd5": [
+        {
+          "key": "21.T11148/076759916209e5d62bd5",
+          "name": "kernelInformationProfile",
+          "value": "21.T11148/ea4e93d06a10e15d9cdf"
+        }
+      ],
+      "21.T11148/90ee0a5e9d4f8a668868": [
+        {
+          "key": "21.T11148/90ee0a5e9d4f8a668868",
+          "name": "operationName",
+          "value": "Convert Numpy to PNG"
+        }
+      ],
+      "21.T11148/2694e4a7a5a00d44e62b": [
+        {
+          "key": "21.T11148/2694e4a7a5a00d44e62b",
+          "name": "requiredType",
+          "value": "{'21.T11148/a976172668c68034d96c': [{'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredKey', 'value': '21.T11148/1c699a5d1b4ad3ba4956'}, {'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredKey', 'value': '21.T11148/b8457812905b83046284'}], '21.T11148/dece113486d8c5ebcf8d': [{'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredValue', 'value': 'application/x-npy'}, {'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredValue', 'value': 'NoType'}]}"
+        },
+        {
+          "key": "21.T11148/2694e4a7a5a00d44e62b",
+          "name": "requiredType",
+          "value": "{'21.T11148/a976172668c68034d96c': [{'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredKey', 'value': '21.T11148/1c699a5d1b4ad3ba4956'}, {'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredKey', 'value': '21.T11148/1c699a5d1b4ad3ba4956'}, {'key': '21.T11148/a976172668c68034d96c', 'name': 'requiredKey', 'value': '21.T11148/b8457812905b83046284'}], '21.T11148/dece113486d8c5ebcf8d': [{'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredValue', 'value': 'application/zst'}, {'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredValue', 'value': 'application/x-npy'}, {'key': '21.T11148/dece113486d8c5ebcf8d', 'name': 'requiredValue', 'value': 'NoType'}]}"
+        }
+      ],
+      "21.T11148/f5c452794e258e83e4ad": [
+        {
+          "key": "21.T11148/f5c452794e258e83e4ad",
+          "name": "outputType",
+          "value": "image/png"
+        }
+      ],
+      "21.T11148/68a31b6927faf56ea381": [
+        {
+          "key": "21.T11148/68a31b6927faf56ea381",
+          "name": "scriptExecutionProtocol",
+          "value": "{ '21.T11148/f0a062050f7af595b4d3': [ { 'key': '21.T11148/f0a062050f7af595b4d3', 'name': 'installationRequirements', 'value': [ '<OS command>', 'python' ] }, { 'key': '21.T11148/f0a062050f7af595b4d3', 'name': 'installationRequirements', 'value': [ 'pip install', 'numpy, pillow, zstandard' ] } ], '21.T11148/ae2a5e71a5a714b72b95': [ { 'key': '21.T11148/ae2a5e71a5a714b72b95', 'name': 'scriptMethod', 'value': [ 'python3', { '21.T11148/a1fe3f60497302ae8b04': [ { 'key': '21.T11148/a1fe3f60497302ae8b04', 'name': 'webAPIExecutionProtocol', 'value': { '21.T11148/791a2295375e3cd9dfee': [ { 'key': '21.T11148/791a2295375e3cd9dfee', 'name': 'httpMethod', 'value': [ 'GET', 'https://raw.githubusercontent.com/kit-data-manager/DOIP-Client-and-TPM-Adapter-Service-for-FDOs/refs/heads/separated_architecture/Demo_Operations/convert_to_png.py' ] } ] } } ] } ] } ], '21.T11148/9ea5044299f7712d1a01': [ { 'key': '21.T11148/9ea5044299f7712d1a01', 'name': 'scriptArgument', 'value': [ '--file', { '21.T11148/a1fe3f60497302ae8b04': [ { 'key': '21.T11148/a1fe3f60497302ae8b04', 'name': 'webAPIExecutionProtocol', 'value': { '21.T11148/791a2295375e3cd9dfee': [ { 'key': '21.T11148/791a2295375e3cd9dfee', 'name': 'httpMethod', 'value': [ 'GET', '21.T11148/b8457812905b83046284', 'false' ] } ] } } ] } ] } ] }"
+        }
+      ]
+    },
+    "pid": "sandboxed/4c9353ef-5065-4f46-a839-014e1ffd4171"
+  }
