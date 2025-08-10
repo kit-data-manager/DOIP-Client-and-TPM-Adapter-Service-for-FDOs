@@ -1,0 +1,10 @@
+numpy
+Pillow
+opencv-python
+requests
+Flask
+jsonschema
+zstandard
+neo4j
+elasticsearch>=8.0.0,<9.0.0
+pyyaml
