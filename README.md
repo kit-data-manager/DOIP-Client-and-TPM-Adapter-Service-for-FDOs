@@ -16,7 +16,7 @@
 We duplicated and extended the FDO records of the PIDs available at https://zenodo.org/records/7022736. The original JSON records are stored under [test_data_records](test_data_records). The records were only registered locally using sandbox PIDs, whilst the original ones can be resolved at https://hdl.handle.net/ using the PIDs in the referenced JSON files. The records were created using additional Kernel Information Profiles (KIPs) and Attribute Types that are registered at the ePIC testing DTR (https://dtr-test.pidconsortium.net/), namely:
 - KIPs:
     - Helmholtz KIP: https://dtr-test.pidconsortium.net/#objects/21.T11148/b9b76f887845e32d29f7 (for data records)    
-    - Operation KIP(inherits from RDA KIP): https://dtr-test.pidconsortium.net/#objects/21.T11148/ea4e93d06a10e15d9cdf (for operation records)
+    - Operation KIP: https://dtr-test.pidconsortium.net/#objects/21.T11148/ea4e93d06a10e15d9cdf (for operation records)
 
 The profiles and typed attributes they contain can be validated by the TPM instance, configured with the ePIC DTR by default.
 
