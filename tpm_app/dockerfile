@@ -1,5 +1,5 @@
 # Use OpenJDK 11 with Python installed
-FROM openjdk:21-slim-bullseye
+FROM eclipse-temurin:21-jdk
 
 # Install Python, Git, and other necessary tools
 RUN apt-get update && apt-get install -y \

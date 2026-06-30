@@ -1,40 +1,39 @@
-FROM openjdk:21-slim-bookworm
+FROM eclipse-temurin:21-jdk
 
 # Install required packages
 RUN apt-get update && apt-get install -y \
     python3 \
-    python3.11 \
-    python3.11-venv \
-    python3.11-distutils \
+    python3-venv \
     python3-pip \
     curl \
-    vim
+    vim \
+    && rm -rf /var/lib/apt/lists/*
 
-# Create and activate virtual environment using Python 3.11
-RUN python3.11 -m venv /opt/venv
-
-# Upgrade pip in the virtual environment
-RUN /opt/venv/bin/pip install --upgrade pip
+# Create virtual environment using the system Python 3 version
+RUN python3 -m venv /opt/venv
 
 # Set PATH to use venv by default
 ENV PATH="/opt/venv/bin:$PATH"
+
+# Upgrade pip and install build helpers in the virtual environment
+RUN pip install --upgrade pip setuptools wheel
 
 # Set working directory
 WORKDIR /app/flask_app
 
 # Copy only the requirements.txt initially to leverage Docker cache
-COPY ../requirements.txt /app/flask_app
+COPY ../requirements.txt /app/flask_app/requirements.txt
 
-# Install any needed packages specified in requirements.txt
-RUN pip3 install --no-cache-dir -r requirements.txt
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
-RUN pip3 show elasticsearch
+RUN pip show elasticsearch
 
 # Now copy the rest of your application
 COPY . /app/flask_app
 
-# Make port 5002 available to the world outside this container
+# Make port 5002 available outside this container
 EXPOSE 5002
 
-# Command to run the app (this can be overridden by docker-compose)
-CMD ["python3", "tpm_adapter.py"]
+# Command to run the app
+CMD ["python", "tpm_adapter.py"]
